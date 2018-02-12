@@ -1,0 +1,161 @@
+#!/bin/bash
+# ntih - naming things is hard
+# ntih © Mike Lalumiere 2018
+# ntih LENGTH [NUMBER] < EXAMPLE TEXT > WORDS
+# This file is licensed under the GPLv3. Please see LICENSE.
+
+# markov chain line encoding
+# <previous char><current char> <next char><weight> ...
+# two special characters ^ and $ denoting start and end points
+
+# ntih_render LENGTH [NUMBER] < CHAIN > WORD
+# Read a chain and use it to generate some words up to target length.
+ntih_render() {
+    # patterns
+    local p_word="^[a-Z^$]+$"
+    local p_int="^[0-9]+$"
+    # accept length argument - an integer maximum length for generated words
+    local length="${1:-10}"
+    if ! [[ "$length" =~ $p_int ]]; then
+        echo "Length argument must be a number." >&2
+        return 1
+    fi
+    # accept number argument - an integer number of words to generate
+    local number="${2:-1}"
+    if ! [[ "$number" =~ $p_int ]]; then
+        echo "Length argument must be a number." >&2
+        return 1
+    fi
+    # parse chain string into rules array
+    local prev curr starts
+    declare -A rules
+    while read entry rest; do
+        # read entry prev char
+        prev="${entry:0:1}"
+        if [ -z "$prev" ]; then break; fi
+        if ! [[ "$prev" =~ $p_word ]]; then
+            echo "P $entry $prev" >&2
+            return 2
+        fi
+        # read entry current char
+        curr="${entry:1:1}";
+        if [ -z "$curr" ]; then break; fi
+        if ! [[ "$curr" =~ $p_word ]]; then
+            echo "C $entry $curr" >&2
+            return 2
+        fi
+        # read entry rule string
+        local buf=""
+        read -a steps <<< "$rest"
+        for step in "${steps[@]}"; do
+            # character is first
+            char="${step:0:1}"
+            if [ -z "$char" ] || [ "$char" == "#" ]; then break; fi
+            if ! [[ "$char" =~ $p_word ]]; then
+                echo "R $index $char" >&2
+                return 2
+            fi
+            # the rest is integer weight
+            weight="${step:1}"
+            if ! [[ "$weight" =~ $p_int ]]; then
+                echo "W $index $weight" >&2
+                return 2
+            fi
+            # unpack the step into a character sequence by weight
+            for ((rep=0; rep < "$weight"; rep++)); do buf+="${char}"; done
+        done
+        # record any starting points
+        if [ "$prev" == "^" ]; then starts+="$curr"; fi
+        # record entry
+        rules["${prev#^}${curr}"]="$buf"
+    done
+    # ensure rules exist
+    if [ "${#rules[@]}" == 0 ]; then
+        echo "No rules found!" >&2
+        exit 3
+    fi
+    # generate one or more string
+    for ((n=0; n < "$number"; n++)); do
+        local out=""
+        # setup initial state
+        prev="${starts:$((RANDOM % ${#starts})):1}"
+        rule="${rules[$prev]}"
+        # walk chain until length found
+        for ((i=0; i < "$length"; i++)); do
+            out+="$prev"
+            # get next character and lookup rule
+            curr="${rule:$((RANDOM % ${#rule})):1}"
+            if [ "$curr" == '$' ]; then break; fi
+            # step forward
+            rule="${rules[${prev}${curr}]}"
+            if [ -z "$rule" ]; then out+="$curr"; break; fi
+            prev="$curr"
+        done
+        # output generated string!
+        echo "$out"
+    done
+}
+
+# ntih_build < WORDS > CHAIN
+# Build a chain from input text.
+ntih_build() {
+    # patterns
+    local p_word="^[a-Z^]+$"
+    # gather character pattern data
+    declare -A rules
+    local prev curr
+    # read words on stdin
+    while read line; do
+        # split lines into words
+        while read -d ' ' word; do
+            # setup initial character state
+            prev="^"
+            curr="${word:0:1}"
+            if ! [[ "$curr" =~ $p_word ]]; then continue; fi
+            # read rest of word one character at a time
+            while read -N1 char; do
+                if ! [[ "$char" =~ $p_word ]]; then continue; fi
+                rules["${prev}${curr}"]+="$char"
+                prev="$curr"
+                curr="$char"
+            done < <(printf "%s" "${word:1}")
+            # terminating character
+            rules["${prev}${curr}"]+='$'
+        done < <(printf "%s " "${line,,}")
+    done
+    # render rules
+    declare -A count
+    for item in "${!rules[@]}"; do
+        # count characters in rule
+        count=()
+        while read -N 1 char; do
+            let count["$char"]++
+        done < <(printf "%s" "${rules[$item]}")
+        # generate next step
+        steps=()
+        while read char; do
+            steps+=("${char}${count[$char]}")
+        done < <(printf "%s\n" "${!count[@]}" | sort)
+        # write the rule
+        printf "%s %s\n" "$item" "$(printf "%s " "${steps[@]}")"
+    done
+}
+
+# run it unless sourced
+if [[ "${BASH_SOURCE[0]}" == "$0" ]]; then
+    # build a chain file
+    chain="$HOME/.ntih"
+    if ! [ -t 0 ]; then
+        # prefer standard input 
+        ntih_build | sort > "$chain"
+    elif ! [ -f "$chain" ]; then
+         # lacking a cache generate one from dictionary words
+         dict="/usr/share/dict/words"
+         if [ -f "$dict" ] && type shuf &>/dev/null; then
+             echo "Building word chain from dictionary..." >&2
+             shuf -n3500 "$dict" | ntih_build | sort > "$chain"
+         fi
+    fi
+    # generate some strings
+    ntih_render "$@" < "$chain"
+fi

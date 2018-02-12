@@ -1,0 +1,14 @@
+# ntih (Naming Things Is Hard)
+
+## ntih
+> ntih [LENGTH] [NUMBER] < EXAMPLE TEXT > WORDS
+Output a NUMBER nonsense words up to the given LENGTH 
+from a Markov chain built from text on standard input.
+
+# License
+GPLv3 (see LICENSE)
+
+# Links
+GNU - https://www.gnu.org/software/
+Bash - https://tiswww.case.edu/php/chet/bash/bashtop.html
+Greg's Wiki - http://mywiki.wooledge.org/
