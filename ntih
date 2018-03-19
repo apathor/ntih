@@ -4,16 +4,32 @@
 # ntih [LENGTH] [NUMBER] < EXAMPLE TEXT > WORDS
 # This file is licensed under the GPLv3. Please see LICENSE.
 
-# markov chain line encoding
-# <previous char><current char> <next char><weight> ...
-# two special characters ^ and $ denoting start and end points
+# Here's a line encoding for a markov chain of characters in a word:
+#  <char previous><char current> <char next><integer weight> ...
+#
+# Entries looks like this:
+#  ^l a38 e24 i23 l1 o18 u9 y2
+#  an $49 a11 c27 d48 e12 f1 g22 i19 k7 l1 n9 o4 q1 s54 t53 u3 w1 x1
+#  nd $12 a13 b5 e42 f1 h2 i21 l12 m2 o7 p1 r5 s17 t1 u4
+#  fr $1 a10 e15 i2 o9 u2 y1
+#  db a3 i1 l1 u2
+#
+# Each rule gives possible next characters given the previous two characters.
+# There are two special characters '^' and '$' denoting start and end points.
+#
+# To build a word a starting character is selected randomly, then for each
+# step a next character is selected randomly weighted by the rules.
+#
+# Function ntih_render reads a chain of this format then uses it to generate words.
+# Function ntih_build generates a chain in this format by reading text input.
+
 
 # ntih_render LENGTH [NUMBER] < CHAIN > WORD
 # Read a chain and use it to generate some words up to target length.
 ntih_render() {
     # patterns
-    local p_word="^[a-Z^$]+$"
-    local p_int="^[0-9]+$"
+    local p_word="^[[:alpha:]^$]+$"
+    local p_int="^[[:digit:]]+$"
     # accept length argument - an integer maximum length for generated words
     local length="${1:-10}"
     if ! [[ "$length" =~ $p_int ]]; then
@@ -34,14 +50,14 @@ ntih_render() {
         prev="${entry:0:1}"
         if [ -z "$prev" ]; then break; fi
         if ! [[ "$prev" =~ $p_word ]]; then
-            echo "P $entry $prev" >&2
+            echo "BAD PREV IN '$entry' - $prev" >&2
             return 2
         fi
         # read entry current char
         curr="${entry:1:1}";
         if [ -z "$curr" ]; then break; fi
         if ! [[ "$curr" =~ $p_word ]]; then
-            echo "C $entry $curr" >&2
+            echo "BAD CURR '$entry' - $curr" >&2
             return 2
         fi
         # read entry rule string
@@ -52,13 +68,13 @@ ntih_render() {
             char="${step:0:1}"
             if [ -z "$char" ] || [ "$char" == "#" ]; then break; fi
             if ! [[ "$char" =~ $p_word ]]; then
-                echo "R $index $char" >&2
+                echo "BAD NEXT '$entry' - $index $char" >&2
                 return 2
             fi
             # the rest is integer weight
             weight="${step:1}"
             if ! [[ "$weight" =~ $p_int ]]; then
-                echo "W $index $weight" >&2
+                echo "BAD WEIGHT $index $weight" >&2
                 return 2
             fi
             # unpack the step into a character sequence by weight
@@ -100,7 +116,7 @@ ntih_render() {
 # Build a chain from input text.
 ntih_build() {
     # patterns
-    local p_word="^[a-Z^]+$"
+    local p_word="^[[:alpha:]]+$"
     # gather character pattern data
     declare -A rules
     local prev curr
@@ -141,21 +157,58 @@ ntih_build() {
     done
 }
 
-# run it unless sourced
-if [[ "${BASH_SOURCE[0]}" == "$0" ]]; then
-    # build a chain file
-    chain="$HOME/.ntih"
-    if ! [ -t 0 ]; then
-        # prefer standard input 
-        ntih_build | sort > "$chain"
-    elif ! [ -f "$chain" ]; then
-         # lacking a cache generate one from dictionary words
-         dict="/usr/share/dict/words"
-         if [ -f "$dict" ] && type shuf &>/dev/null; then
-             echo "Building word chain from dictionary..." >&2
-             shuf -n3500 "$dict" | ntih_build | sort > "$chain"
-         fi
+# ntih [OPTIONS] [LENGTH] [NUMBER] < TEXT > WORDS
+# Generate words from chain made from input text.
+ntih() {
+    # usage
+    read -r -d '' use <<EOF
+USAGE: ntih [OPTIONS] [LENGTH] [COUNT]
+Build a markov chain by sampling words from input text,
+then use it to generate COUNT words each composed of up to LENGTH characters.
+
+OPTIONS
+ -f CHAIN_FILE  : File where the chain will be stored.
+ -i INPUT_FILE  : Input file from which to read sample words.
+ -r             : Force regeneration of CHAIN_FILE.
+
+ENVIRONMENT
+ \$NTIHFILE : Default CHAIN_FILE from which to load a chain.
+ \$NTIHDICT : Default INPUT_FILE from which to generate a chain.
+
+ntih © Mike Lalumiere 2018
+EOF
+    # environment
+    local conf="${NTIHFILE:-$HOME/.ntih}"
+    local dict="${NTIHDICT:-/usr/share/dict/words}"
+    local regn=0
+    # get options
+    local chain
+    while getopts ":f:hi:r" opt; do
+        case "$opt" in
+            f) conf="$OPTARG"                                 ;;
+            i) dict="$OPTARG"                                 ;;
+            r) regn=1                                         ;;
+            h) printf "%s\n" "$use" >&2; return 0             ;;
+            \?) printf "Bad option!\n%s" "$use" >&2; return 1 ;;
+        esac
+    done
+    shift $((OPTIND - 1))
+    # lacking a cache generate one
+    if ! [ -f "$conf" ] || [ "$regn" != 0 ]; then
+        { if ! [ -t 0 ]; then
+              printf "Building chain from STDIN.\n" >&2
+              cat /dev/stdin
+          elif [ -f "$dict" ]; then
+              printf "Building chain from %q.\n" "$dict" >&2
+              cat "$dict"
+          else
+              printf "Input needed to build chain!\n" >&2
+              return 2
+          fi
+        } | ntih_build | sort > "$conf"
     fi
     # generate some strings
-    ntih_render "$@" < "$chain"
-fi
+    ntih_render "$@" < "$conf"
+}
+# run it unless sourced
+if [[ "${BASH_SOURCE[0]}" == "$0" ]]; then ntih "$@"; fi

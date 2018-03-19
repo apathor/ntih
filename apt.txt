@@ -1,0 +1,699 @@
+hx $2 a1 d2 e1 h1 j2 s3 t33 
+qc $6 a8 c1 d1 h1 i8 l2 o5 s1 t1 u4 
+kq $2 d1 m2 p1 t6 u11 
+xh $3 a7 e22 i5 m3 o3 p1 r1 s4 t14 u2 y1 
+uo $3 c2 d3 l7 n1 p4 r4 s20 t17 u2 v1 
+nj $12 a174 b5 d13 e17 i12 j2 m2 n1 o7 p26 r2 s31 t2 u11 v1 w3 
+^z $1 a24 b3 d4 e23 f3 h2 i22 l5 m2 n6 o22 p2 s14 t1 u4 v1 y9 z2 
+dl $40 a8 b5 c8 d32 e141 f1 g13 i117 j2 l6 m15 n73 o33 p14 r2 s8 t10 u5 x1 y1 z3 
+ge $162 a121 b19 c31 d118 e20 f6 g10 h4 i41 j5 k20 l41 m95 n304 o131 p77 q1 r333 s145 t177 u4 v11 w11 x95 
+rv $16 a11 c1 d3 e413 h1 i100 l8 m1 n1 o6 p4 t2 u1 
+as $88 a28 b5 c99 d73 e476 f7 g77 h204 i90 j3 k363 l39 m97 n31 o53 p125 q26 r7 s423 t394 u11 v3 w8 x1 y69 
+qb $1 a11 d1 f1 i3 r1 z1 
+kp $1 a26 c1 e85 g2 h5 i14 j1 k1 l21 n1 o26 p1 r45 t3 u4 v3 w2 
+xi $9 a7 b1 c12 d6 e4 f16 g2 h1 l15 m48 n69 o59 p12 r2 s12 t7 v16 w1 x1 
+dm $23 a82 b2 c10 d8 e13 f4 g6 i71 j1 k2 l8 m3 o40 p2 q2 r4 s26 t14 u6 v1 x6 y17 z2 
+yz a1 e15 i2 m1 o3 y2 
+gd $32 a68 b92 c26 d17 e171 f8 g4 i39 j1 k14 l7 m12 n11 o88 p13 r4 s4 t3 u1 v2 x3 
+hy $34 a16 b5 c10 d18 e5 f6 g8 h2 i3 k1 l23 m5 o4 p55 q5 r8 s31 t12 u3 v5 w7 
+rw $5 a14 b7 e18 h2 i16 l1 m2 n1 o1 r4 t2 x3 
+un $39 a43 b13 c78 d329 e80 f8 g24 h2 i320 j5 k16 l11 m3 n41 o14 p20 r8 s57 t175 u4 w8 x1 y5 z3 
+nk $31 a24 b1 c5 d49 e76 f4 g8 i56 j4 k6 l8 m14 n5 o17 p12 r9 s27 t11 u3 y11 z1 
+ar $146 a181 b28 c230 d263 e281 f23 g88 h4 i138 j18 k102 l34 m130 n28 o34 p160 q10 r65 s336 t244 u39 v10 w8 x2 y62 z4 
+yy a4 d1 
+hz $2 c4 d4 n1 s1 u1 
+xj a42 d1 e1 i1 j1 m3 o2 s2 t1 u2 
+aq $8 b7 d2 e2 f1 h1 i1 l1 o1 r1 s5 t4 u10 v1 z1 
+nh $1 a25 d2 e25 g2 i20 k2 l1 m1 o7 p20 r9 s6 t26 u23 w1 y17 
+qa $1 b1 c2 l14 n2 p8 r1 s4 t1 
+^x $3 a29 b46 c29 d24 e23 f165 g11 h2 i19 j7 k4 l10 m107 n10 o19 p57 q2 r7 s100 t28 u67 v14 w9 x9 y5 z5 
+gg $16 a16 c2 d10 e81 f2 g5 h5 i21 k2 l18 n2 o38 p2 r16 s3 t6 u25 v4 y5 z4 
+dn $5 a15 b1 d7 e27 j1 l3 n2 o19 p4 s120 u8 v3 
+rt $145 a51 b19 c25 d53 e132 f19 g22 h50 i88 j13 k4 l25 m20 n5 o51 p49 r65 s68 t7 u112 v5 w20 x1 y32 z3 
+ks $70 a20 b4 c28 d24 e30 f1 g3 h21 i13 j7 l12 m6 n6 o54 p59 q4 r2 s12 t42 u15 v2 w5 x1 y6 
+um $50 a50 b92 c4 d27 e89 f6 g2 i19 j2 k2 l13 m25 n7 o14 p117 r3 s16 t7 u3 v9 
+xk $1 a6 b20 d3 e9 l3 o6 
+kr $3 a24 b39 c1 d2 e61 f5 i6 n2 o11 p1 s2 t8 u15 w1 y3 
+^y a55 c1 d1 e6 f1 h5 i3 k1 o42 r1 t1 u13 y1 
+ru $42 b884 c41 d9 e3 f3 g2 h1 i11 k4 l19 m25 n137 p21 r7 s101 t34 u1 w3 
+ni $48 a62 b13 c122 d57 e12 f47 g22 h7 i3 j16 k26 l16 m75 n200 o70 p46 q8 r5 s76 t267 u16 v15 x64 z32 
+yx $10 a5 b6 c4 d7 e2 g1 i4 k6 l2 m16 n1 p3 s2 x8 
+gf $7 a16 b5 c3 d3 f2 i15 l8 m3 o79 p1 r10 s34 u2 w1 x19 
+ap $179 a223 b4 c43 d101 e164 f16 g14 h220 i238 j10 l143 m20 n31 o38 p462 q4 r74 s110 t173 u18 v9 w6 y9 z2 
+do $34 a10 b5 c3367 d25 e1 f6 g20 i5 j6 k8 l13 m112 n47 o11 p21 q1 r26 s39 t25 u29 v85 w81 x18 z2 
+ul $9 a110 b1 c3 d13 e431 f3 g7 i43 k2 l43 m2 n1 o27 p2 q1 s50 t199 u3 w2 
+qg e4 i23 l3 o1 p3 r1 s1 
+uk $25 a1 c5 d2 e5 i1 l1 o2 p1 q2 r6 u3 v2 w3 
+aw $27 a19 b4 c4 d31 e21 f6 g6 h1 i47 k14 l14 m1 n13 o3 p9 r2 s65 t19 u2 x1 y1 z1 
+rr $7 a68 b3 c6 d26 e94 f2 i18 l4 m1 n1 o70 p6 s1 u9 y9 
+ku $9 a2 b1 d4 i4 k3 l15 m3 n4 p66 r9 s4 t16 v1 w2 x1 y2 
+dh a15 b1 c36 d2 e12 g2 i10 k1 l3 m6 o9 p4 r1 s2 t3 u1 v1 x1 y1 
+oy $13 a12 c1 d2 e2 i1 k1 l2 m2 o4 p5 s10 t1 x1 
+xl $6 a10 b2 d10 e6 i132 j6 m3 o11 r2 s7 t1 u1 v1 w1 
+nn $28 a75 b13 c9 d18 e168 f2 g4 i40 j3 k1 l16 m12 n15 o75 p1 r1 s6 t19 u17 w5 x4 y4 
+ga $34 b20 c28 d49 e5 f4 g10 i48 j2 k8 l53 m208 n51 o1 p39 r50 s35 t46 u17 v14 w7 y1 z5 
+uj a7 j3 r4 s2 u2 
+qf $1 i3 r1 
+xm $1 a36 b1 d4 e11 h5 i6 j1 k3 l426 m75 n1 o33 p40 r1 s1 u11 x20 y2 
+kt $6 a16 d2 e29 h17 i13 k2 n1 o268 p8 r42 s1 t1 u14 y2 
+av $42 a1578 b2 c13 d29 e269 f9 g1 i69 j1 l10 m6 o6 p11 r14 s1 t5 u14 w1 y2 z1 
+ox $86 a4 b6 c12 d45 e105 f15 g9 h2 i14 j10 k7 l6 m25 n4 o3 p22 q1 r9 s25 t14 u3 w1 x2 y143 
+ez $4 b1 c1 d5 e16 f1 g10 h4 i12 l1 m2 o14 p3 r1 s1 t6 v2 
+no $49 a22 b40 c48 d343 e6 f18 g16 h3 i46 j7 k15 l12 m385 n83 o11 p83 r131 s172 t200 u14 v37 w34 x34 z3 
+di $41 a294 b13 c366 d37 e27 f76 g48 i2 j3 k7 l7 m26 n123 o191 p19 q2 r208 s272 t145 u34 v8 w2 x2 z2 
+rs $174 a52 b5 c36 d68 e380 f1 g12 h20 i113 j8 k4 l22 m11 n5 o50 p87 q6 r12 s53 t48 u6 v13 w6 x3 y32 
+xn a2 b3 c1 e15 g13 o3 v2 
+qe b1 d2 l3 m23 x4 
+kw a20 e10 i19 m2 n2 o3 r4 s1 w1 
+dj $1 a152 c6 d1 e5 i2 k2 m2 n1 o6 q1 s6 t2 u9 v27 
+ey $35 a19 b20 c10 d17 e17 f9 g3 j2 k2 l3 m4 n11 o5 p12 q1 r23 s30 t8 u4 v1 w5 
+rp $28 a40 b7 c79 d14 e385 f1 g14 h31 i11 j2 k1 l165 m26 n2 o27 p14 r74 s6 t34 u22 v1 w2 x1 y14 z3 
+ui $139 a6 b3 c111 d204 e4 f10 g14 i1 j2 l156 m59 n24 o6 p11 q4 r27 s30 t138 u6 v5 x4 z10 
+gc $3 a14 b1 c67 d11 e3 f1 h7 i30 j46 k4 l15 m1 o137 p11 r28 s1 t4 u8 v1 x4 y2 z1 
+nl $35 a54 b1 c12 d40 e21 f7 g2 h2 i170 j4 k1 l9 m6 n4 o80 p6 q1 r2 s4 t11 u11 v4 x5 y4 z4 
+au $11 a2 b7 c12 d142 e3 f2 g20 h2 i1 k2 l58 m3 n28 p4 r19 s13 t438 u2 v3 x6 z1 
+kv $1 e2 i10 k1 m6 n8 o3 p6 t3 
+qd $3 a3 b22 d1 e19 i4 j6 o9 
+rq $1 a1 b1 d1 i1 l7 r2 t36 u8 
+gb $16 a24 b1 c9 d14 e5 f4 g7 h1 i12 j1 l4 m9 n5 o18 p4 q4 r9 s7 u8 v2 w1 x4 
+nm $3 a97 c5 d3 e59 f2 g10 h3 i46 k4 l8 m3 n4 o152 p95 r8 s18 t1 u41 v5 w1 x2 y11 z5 
+xo $1 a1 b8 c8 d9 h2 l2 m5 n16 o3 p2 r72 s12 t10 u3 v1 
+uh d6 e6 i2 m1 o1 r1 t3 u1 
+oz $4 c8 d2 e20 f6 g1 i8 j13 o2 p1 v8 z2 
+dk $23 a14 c4 d19 e3 g2 h3 i23 j7 k1 l1 m29 n1 o2 p10 r2 s9 t3 u1 
+ex $136 a170 b25 c89 d49 e61 f26 g7 h10 i82 j6 k3 l110 m50 n2 o25 p177 r15 s26 t730 u67 v4 w6 x7 y7 
+at $157 a1046 b15 c217 d74 e713 f36 g9 h397 i484 j5 k21 l28 m32 n7 o244 p60 r72 s73 t108 u52 v9 w3 x7 y9 z5 
+gm $6 a36 c3 d4 e66 f1 i21 k1 l26 m4 n1 o50 p34 r2 s7 t28 u8 v2 y4 
+^r a105 b44 c243 d19 e149 f3 g3 h17 i24 k3 l6 m6 n3 o84 p11 r11 s30 t25 u735 w4 x7 y10 z1 
+ky $7 a5 b2 c3 d2 e6 g1 h1 l11 n1 o31 p6 r1 s2 t8 u3 
+nb $10 a47 b1 c6 d20 e31 g8 i47 j4 k1 l22 m1 n17 o54 p4 r21 s19 t2 u22 v1 x3 y1 z3 
+dd $18 a51 b119 c9 d11 e194 f1 i30 k1 l22 m5 n4 o150 p4 r33 s10 t4 u1 y1 
+ew $81 a57 b6 c12 d34 e169 f6 g4 h10 i56 j2 k2 l7 m33 n6 o106 p15 r19 s27 t24 u6 v2 x1 
+ou $4 a1 b17 c26 d52 f1 g9 h2 i22 l9 n285 o2 p66 r208 s74 t215 u1 v5 z3 
+hp $38 a35 b2 c18 d30 e99 f10 g21 h139 i32 j5 k3 l38 m25 n18 o9 p24 q1 r47 s69 t16 u13 v2 w7 x13 y6 z8 
+ys $18 a23 b1 c30 d19 e30 f13 g3 h19 i77 k4 l61 m5 n9 o18 p69 q161 r3 s15 t324 u3 v14 w1 y24 
+ug $31 a9 c2 d9 e40 g27 h4 i1121 j3 k1 l15 n4 o5 p2 r27 s33 t16 u20 z3 
+hq t2 u4 
+kx $5 c1 d2 f2 g1 h2 l2 m9 p1 s8 t1 
+yr $5 a43 b1 c5 d9 e48 f1 g2 i47 j1 k1 m5 o17 p2 q1 r3 s16 t5 u45 
+uf $12 c8 d10 f52 i1 j3 l19 m1 o1 r11 s4 t4 w5 
+qj a4 o1 s4 
+az $7 a22 d5 e43 h3 i21 l3 m1 o35 r13 u3 y9 z1 
+^s $2 a81 b17 c176 d30 e67 f14 g15 h96 i84 j1 k23 l78 m55 n39 o61 p111 q50 r13 s46 t113 u72 v14 w67 x2 y115 
+ev $4709 a47 b2 c9 d36 e286 f11 h11 i123 k1 l4 m5 n1 o52 p13 r3 s8 t33 u1 v1 x1 
+gl $68 a69 b7 c10 d44 e136 f14 g7 h3 i199 j6 m22 n63 o281 p25 q1 r13 s2 t31 u52 v5 w4 x21 y11 
+nc $80 a100 b12 c15 d57 e261 f8 g3 h124 i57 j5 k14 l118 m16 n4 o214 p29 r39 s39 t43 u61 v47 w2 x2 y33 z1 
+ot $124 a78 b10 c54 d62 e118 f18 g23 h96 i130 j1 k8 l24 m60 n19 o182 p57 q3 r47 s52 t42 u13 v1 w7 x3 y19 z4 
+xa $2 b2 c6 d1 g2 h1 i5 j1 l15 m147 n3 o1 p29 r6 s10 t17 u7 v3 w14 y1 
+de $235 a60 b261 c223 d203 e56 f87 g42 h17 i21 j28 k13 l226 m115 n139 o107 p148 q41 r491 s407 t103 u48 v4947 w23 x57 y5 z6 
+qi $2 d1 e3 f1 i3 l3 m6 n3 t2 v2 
+xb $1 a45 b4 d1 e5 i11 j2 l9 m24 o12 r8 s1 t3 u24 y3 
+yq d1 i1 m1 s1 t97 u6 
+hr $15 a19 d2 e56 g3 i6 o49 p2 s1 t1 u7 v3 w2 
+eu $25 c8 d2 e37 f2 g4 i33 k2 l3 m2 n14 p8 r27 s22 t84 u2 x3 
+ue $56 a8 b4 c2 d33 e4 f7 g7 h1 j1 k1 l14 m6 n12 o1 p20 r109 s103 t18 u35 v5 x9 y1 z9 
+ay $75 a42 b11 c6 d21 e93 f6 g4 i9 l24 m29 o14 p19 r2 s15 t3 u3 v1 
+df $86 a20 b7 c17 d38 e17 f10 g6 h4 i50 j7 k1 l13 m12 n2 o32 p17 q3 r25 s25 t41 u9 v8 w2 x2 
+^p a143 b4 c41 d99 e72 f13 g21 h460 i132 k17 l97 m15 n14 o160 p15 q1 r152 s46 t14 u72 v8 w6 x8 y3271 z3 
+ow $44 a20 b11 c6 d16 e55 f17 g8 h5 i14 j6 l73 m6 n74 p19 q2 r2 s81 t10 u3 v1 w2 x2 
+go $61 a18 b70 c49 d73 e8 f41 g15 h4 i2 j6 l95 m29 n38 o80 p37 r47 s74 t45 u7 w3 x7 y2 z2 
+qh a3 b1 i1 u4 
+kz $4 e3 i2 o1 
+ov $8 a50 b1 c8 d1 e180 h1 i41 j2 k4 l3 m7 n3 o6 r4 s1 y11 
+^q a11 b5 c4 d6 e22 f1 g13 h2 i8 j3 l5 m48 n3 o2 p11 q1 r5 s9 t144 u67 v2 w4 x1 
+dg $13 a8 b6 c2 d7 e134 g1 h2 i35 l12 m1 n3 o1 p3 r13 s8 t12 u11 
+xc $7 a13 b99 d7 e42 f4 h15 i8 j11 l38 m5 o85 p3 r6 s2 t2 u12 w1 y1 z1 
+ax $32 a2 b7 c5 d9 e15 g5 h5 i39 j6 k2 l2 m16 n10 o10 p12 r5 s11 t11 u3 v1 w1 x1 y1 
+yp $4 a39 c2 d6 e300 g4 h35 i11 k1 l148 m1 n2 o38 p11 r65 s2 t194 u6 v1 y22 
+hs $8 a2 b13 c13 d18 e17 f2 h5 i5 l9 m16 o7 p39 q21 r1 s6 t14 u9 w3 x11 y6 
+et $231 a160 b29 c95 d160 e216 f45 g22 h95 i175 j31 k13 l56 m51 n15 o147 p104 q1 r110 s240 t164 u65 v10 w96 x13 y29 z7 
+gn $24 a82 c3 e28 g23 i10 l3 m2 o349 p4 q1 s6 t2 u227 w1 z1 
+ud $12 a40 b32 c7 d7 e111 f12 g9 h2 i144 j1 l1 m4 n5 o41 p12 r3 s11 t5 u5 v1 w1 y3 
+na $41 a3 b13 c66 d128 e7 f19 g200 h6 i31 j17 k10 l177 m141 n56 o2 p127 r124 s45 t169 u88 v42 w7 x15 z5 
+rz $2 d1 e1 i2 m2 o4 p1 s1 
+qo a2 c2 f7 k1 m2 n3 s1 
+yw a7 b1 c1 e9 f7 h4 i4 m1 o5 r2 t1 
+oq $7 d3 g1 i1 l1 o3 t5 u10 x2 
+^v a33 b8 c6 d47 e22 f6 g2 i112 k1 l22 m9 n5 o29 p8 r4 s7 t13 u1 x1 y1 z4 
+ht $28 a8 b5 c10 d32 e25 f1 g7 h9 i8 j8 k1 l1 m300 n60 o32 p21 r6 s29 t210 u2 v6 w13 y5 z2 
+xd $14 a28 b42 c1 d7 e118 f3 g15 i10 k2 l1 m11 n1 o76 p2 r7 s3 t2 u3 v2 x1 
+nf $50 a44 b5 c25 d35 e29 f14 g7 i265 j2 k4 l69 m12 n3 o190 p7 q4 r48 s28 t7 u19 x2 y8 
+gi $50 a52 b5 c120 d37 e6 f21 g12 h3 i5 j3 k6 l11 m28 n1384 o58 p51 q4 r184 s90 t115 u6 v8 w3 x7 
+uc $1 a55 b1 c3 e29 f1 h60 i11 j2 k15 l16 n1 o45 p6 r1 s6 t47 u2 y3 
+es $601 a152 b21 c146 d201 e242 f17 g18 h84 i114 j22 k253 l22 m41 n39 o167 p256 q116 r111 s488 t815 u47 v12 w25 x6 y45 z6 
+qn a2 i1 
+yv $1 a4 c1 e4 i9 m3 n1 o4 t5 
+hu $25 a5 b22 c1 d2 f5 g35 l6 m34 n150 p4 r13 t18 y6 
+^w a35 b10 c18 d9 e76 f3 g4 h20 i87 k2 l2 m70 n3 o30 p12 r9 s8 u2 v2 w4 x10 y1 z1 
+gh $5 a5 b1 c2160 d3 e9 g4 i4 k1 l23 m1 o5 p2 r1 s1 t210 u6 y1 
+xe $6 a2 c22 d8 f1 j2 k1 l19 m18 n45 p2 q2 r43 s109 t2 v4 x30 
+ng $274 a91 b40 c81 d159 e158 f25 g75 h19 i125 j48 k9 l189 m55 n33 o261 p118 q1 r72 s162 t77 u125 v5 w49 x10 y3 z2 
+da $59 a5 b17 c39 d47 e89 f1 g8 h6 i5 j3 k1 l65 m17 n47 o3 p172 r132 s34 t1108 u39 v31 w2 x2 y10 
+op $257 a56 b10 c18 d48 e898 f5 g17 h27 i36 j5 k6 l33 m22 n9 o28 p63 q2 r53 s36 t105 u32 v1 w6 x2 y56 
+ub $25 a12 b17 c19 d11 e41 f7 g4 i46 k6 l51 m6 n6 o5 p14 r5 s20 t12 u37 v8 w2 x4 y833 
+er $1403 a302 b162 c196 d474 e230 f120 g99 h18 i277 j115 k27 l3666 m248 n126 o138 p460 q22 r113 s459 t232 u63 v523 w17 x86 y128 z3 
+gk $1 a7 b2 d2 e4 h3 i5 o3 r27 s7 
+xf $1 a7 b2 c82 d11 e7 i15 l6 m7 o94 p1 r23 s9 t15 u4 v4 w5 
+yu $4 b15 c1 d7 e2 g1 i36 m2 n7 p3 r5 t14 u2 w2 
+eq $16 a2 c1 d12 e4 g4 i5 l3 o4 p3 q1 r3 s5 t86 u91 w1 
+hv $2 e11 i26 t1 
+ua $30 a4 b11 c24 d44 e23 f2 g32 i7 j6 k16 l139 m5 n53 o1 p17 r50 s30 t12 u8 v4 w4 x1 y6 z13 
+qm $1 a13 c2 f10 h1 i11 l34 m3 o2 p1 r1 t1 v1 y1 
+^t a299 b1 c85 d7 e256 f8 g5 h94 i70 k33 l4 m9 n11 o60 p7 r198 s6 t80 u44 v4 w17 x7 y2 z4 
+rx $10 a3 c1 d2 e2 g2 h1 k1 l1 m8 o66 p5 s8 t2 v10 w1 
+nd $125 a167 b202 c27 d73 e602 f30 g22 h15 i267 j126 k14 l98 m27 n33 o274 p49 q8 r77 s108 t18 u77 v13 w7 x1 y3 z2 
+db $124 a36 b1 c114 d98 e5 f13 g2288 h14 i113 j14 k2 l13 m41 o31 p28 r9 s27 t15 u136 v1 w2 x14 
+os $80 a63 b5 c46 d69 e166 f8 g31 h23 i105 k2 l30 m49 n12 o51 p41 q23 r8 s89 t371 u12 v4 w3 x2 y105 
+gj a46 d1 f1 i19 j4 m1 o3 p1 s9 u1 
+ry $79 a25 b10 c23 d21 e5 f8 g19 h3 i14 j17 l3 m10 o10 p314 q2 r7 s31 t101 u35 v1 w5 x3 
+^u a3 b23 c18 d20 f5 g3 h4 i40 k2 l17 m12 n65 p17 q7 r9 s22 t10 u9 v4 w34 z1 
+xg $2 a6 b3 c4 d4 e2 f5 k3 l8 n16 o23 r8 s1 t20 u15 y2 
+ep $42 a204 b12 c22 d32 e653 f2 g24 h51 i55 k5 l171 m24 n1 o144 p25 q1 r207 s31 t49 u44 v2 w2 x1 y17 
+hw $4 a10 b1 c1 d2 e6 g1 h1 i2 l8 o2 p4 r3 
+ne $183 a27 b12 c102 d120 e35 f16 g62 h2 i14 j23 k12 l126 m42 n109 o25 p82 q2 r158 s206 t735 u45 v19 w60 x68 y9 z5 
+yt $1 a18 c4 d1 e81 h3315 i22 k1 n2 o115 p2 r16 t3 u4 w6 y6 z1 
+ql $174 a19 b3 c25 d61 e2 f2 g2 i122 j7 l5 m17 n3 o17 p60 r2 s25 t8 u3 v2 w4 
+or $254 a126 b69 c65 d420 e476 f7 g164 h10 i139 j16 k229 l72 m309 n30 o28 p115 q19 r47 s130 t375 u24 v4 w16 x4 y176 
+dc $32 a32 c10 d35 e1 f1 g4 h15 i11 j1 k1 l49 m23 o108 p26 r13 s3 t4 u9 v1 x2 y2 
+yk $1 a4 c3 d5 e5 g1 i8 k2 n4 p4 r2 s2 y1 
+hh a4 k1 m4 o4 p1 s7 t4 u2 
+qs $3 a5 c18 d1 e1 f2 h2 i6 l1 p1 s2 t2 y1 
+gu $4 a84 b1 c4 d8 e62 f1 g1 i254 j7 k1 l19 m4 n18 p24 r29 s16 t33 u1 v4 y3 z8 
+nz $6 a12 b14 c3 d8 e10 f1 h25 i4 m4 n3 o52 p3 s1 u2 v1 y3 
+xx $18 a2 b1 c5 d17 e1 f11 g3 k4 l6 m5 p1 s1 t5 w1 x9 
+^j a60 b6 c7 d2 e27 f6 g3 h3 i10 k1 l6 m20 n3 o16 p9 q5 r1 s15 t5 u37 v3 w2 x1 y2 z1 
+ka $22 a10 b20 c17 d35 f7 g72 i9 j5 k5 l46 m51 n31 o3 p21 r28 s23 t25 u7 v1 w3 y9 z9 
+rf $26 a52 b8 c22 d20 e4 f4 g1 i20 j2 k6 l7 m2 o22 p5 r10 s10 t8 u1 w2 y1 
+eo $22 a16 b12 c62 d14 e4 f191 g30 h4 i28 k3 l16 m38 n38 o5 p28 q2 r39 s58 t19 u14 v3 w59 x3 z2 
+ac $44 a33 b5 c132 d33 e265 f2 g10 h370 i60 j11 k608 l61 m18 n1 o120 p34 q2 r25 s86 t325 u56 v3 w3 x2 y21 z1 
+om $55 a104 b38 c27 d42 e421 f18 g17 h10 i90 j15 k3 l1 m751 n34 o47 p431 q6 s42 t17 u28 v3 w4 x15 y12 
+qr $8 c5 d4 e8 f1 i1 l3 o1 q1 t1 u3 x1 
+xy $57 a4 b1 c17 d16 e3 f2 g12 h1 j2 m6 n1 o6 p15 q1 s8 t3 u4 
+yj a47 b1 e7 f1 g1 n2 o3 p4 q2 s6 u1 w1 
+rg $17 a18 b4 c10 d16 e104 f1 h2 i29 j3 k1 l27 m4 n16 o34 p4 r12 s44 t25 u28 v42 w1 x5 y9 
+^k a97 b21 c14 d232 e53 f7 g10 h3 i58 j2 l16 m26 n18 o60 p14 r42 s33 t17 u10 v10 w13 x4 y6 
+gt $6 a22 c2 d2 e22 f6 g5 h15 i6 k518 l6 m3 o41 p1 r14 s5 t2 u8 v1 x1 y6 
+hi $22 a18 b30 c106 d32 e12 f5 g37 i2 j4 k15 l24 m28 n170 o7 p39 q2 r15 s56 t42 u9 v48 w1 z1 
+ab $50 a79 b66 c12 d17 e77 f5 g3 i129 j4 k3 l270 m3 n11 o29 p6 q1 r17 s45 t4 u14 w5 x3 y3 
+ol $138 a176 b17 c21 d92 e119 f19 g6 h3 i106 j6 k82 l115 m13 n6 o148 p31 r9 s687 t5 u52 v45 w2 x3 y50 
+en $156 a144 b37 c397 d370 e157 f18 g249 h41 i129 j51 k42 l35 m65 n39 o82 p118 q1 r37 s368 t1092 u122 v94 w12 x6 y1 z10 
+xz $2 d1 g1 i1 j2 m1 o2 u1 
+qq $1 w3 
+gw $3 a6 b1 c2 d1 e28 f3 h1 i2 n1 o4 r3 s2 t1 w35 x1 y6 
+aa $9 a1 b3 c40 d22 f2 g2 i6 j2 l14 m5 n4 p22 r12 s7 t4 u5 v1 
+kc $6 a22 c2 d7 e2 g1 h43 i18 l16 m2 o93 p1 r6 s12 t1 u10 w2 y3 z3 
+rd $114 a70 b191 c18 d70 e451 f63 g9 h2 i69 j2 k12 l62 m9 n10 o173 p79 q1 r25 s41 t15 u34 v2 w4 x1 y5 
+hj a40 m1 o10 p1 s6 
+^h a52 d14 e65 f4 g6 h4 i21 l5 m5 n1 o43 p14 s7 t37 u45 v1 w5 y42 
+em $52 a345 b47 c67 d79 e289 f11 g7 h4 i76 j5 k4 l10 m59 n8 o367 p180 q7 r40 s34 t24 u96 v10 w24 x7 y32 
+nx $18 a4 b7 c38 d12 e5 f2 g4 h6 i7 l11 m17 p8 r4 s10 t10 v2 w1 x2 
+oo $21 a1 b12 c22 d47 f19 g59 h2 j1 k183 l838 m34 n27 o7 p67 q2 r7 s188 t255 u2 v22 w4 x17 y1 z8 
+yi $1 b1 c9 d3 e3 k1 m2 n69 o2 p3 r1 s3 t3 y1 
+hk $4 c1 d13 e1 i5 l5 n1 p1 r2 t1 
+kb $7 a16 c4 d22 e13 f3 i12 k1 l4 o23 p2 r14 s1 t1 u10 w1 
+yh $1 a9 b2 d2 e3 i9 m1 o8 p1 s9 t20 u3 y2 
+ny $21 a26 b7 c16 d13 e29 f4 h3 i33 j2 l2 m8 o4 p79 q1 r6 s8 t11 u6 v1 w4 x22 y1 
+qp $5 a1 d8 e7 i9 l16 o2 p2 r7 s2 t1 x3 
+gv $9 a2 b1 c2 d1 e2 f10 g3 h1 i51 l1 n4 o3 p5 r2 t2 w1 
+^i $1 a9 b81 c288 d29 e5 f27 g10 h1 i7 j1 k10 l5 m36 n110 o14 p60 r26 s44 t17 u3 v8 w7 z2 
+on $983 a300 b117 c304 d672 e324 f524 g293 h60 i180 j98 k79 l223 m307 n182 o500 p780 q72 r129 s762 t932 u48 v153 w85 x37 y88 z72 
+el $183 a156 b9 c31 d116 e206 f22 g13 h3 i220 j11 k10 l514 m24 n241 o111 p159 q1 r15 s60 t37 u51 v7 w8 x4 y6 z2 
+re $297 a495 b44 c263 d294 e553 f236 g115 h11 i37 j31 k9 l170 m120 n212 o221 p246 q68 r45 s496 t87 u14 v44 w44 x37 y9 z9 
+gq $2 r1 t1 u2 
+dx $6 b1 d3 f4 g1 h3 m3 p4 r2 s5 t4 v1 
+hl $13 a6 d7 e12 f1 i59 j1 o4 u1 v2 
+ek $15 a8 b10 c2 d21 e39 f3 g14 h2 i32 j5 k2 l2 m3 n3 o15 p5 q1 r1 s5 t14 u1 v2 w3 x2 y8 
+qw $1 a1 b1 e4 i4 k2 o1 t14 
+yo $4 a2 b4 c19 d12 f1 g1 i1 j5 k2 l1 m11 n10 o1 p15 r48 s7 t33 u19 w1 x1 z12 
+^n a85 b12 c28 d13 e142 f9 g31 i27 j3 k1 l2 m6 n2 o324 p3 q2 r3 s25 t21 u37 v49 w5 x1 y4 z2 
+rb $28 a50 b4 c8 d29 e10 g1 h5 i164 j1 k2 l29 m2 n1 o28 p6 r10 s18 t3 u10 v2 y6 
+ag $46 a34 b2 c26 d20 e664 f2 g23 h3 i183 k1 l30 m4 n15 o9 p9 r40 s50 t21 u15 v4 w1 z1 
+oi $1 a6 c24 d84 j2 k9 l15 m7 n144 p31 q1 r15 s22 t3 u5 v3 z9 
+ke $62 a2 b6 c10 d53 e31 f7 g5 h3 i7 j4 k18 l59 m8 n131 o7 p27 q23 r186 s46 t137 u4 v4 w1 x42 y156 
+qv a1 i2 l1 
+oh $2 a22 c2 d1 e11 g1 i13 n3 o6 t11 w1 
+uz $6 a2 b1 h1 l1 z37 
+hm $8 a39 b11 c3 d14 e15 f2 i5 l7 m10 n1 o7 p3 s10 t1 u5 v1 y1 
+ej $2 a146 b2 d3 e1 i3 j3 n2 o2 p1 s27 t1 u1 y2 
+^o a17 b14 c116 d8 f7 g13 h4 i3 k7 l12 m17 n9 o7 p286 r14 s30 t17 u2 v6 w17 x3 
+gp $6 a41 b1 c3 d9 e99 g29 h13 i27 j2 k2 l34 m5 n1 o23 p9 q1 r44 s47 t5 u10 v1 w1 x5 y6 z1 
+kd $17 a31 b102 c14 d6 e515 f8 g2 i24 k1 l2 m5 n3 o119 r3 s3 t9 u6 z2 
+yn $4 a59 b1 c103 d6 e19 f9 g3 i2 k1 l7 m1 n2 o11 p3 s1 t44 u2 v1 w1 x3 z1 
+dy $16 a2 b2 d9 f1 i1 j2 l7 m3 n43 p9 r3 s3 
+rc $64 a50 b6 c18 d39 e162 f3 g6 h155 i27 j2 l40 m20 o147 p31 r253 s30 t13 u30 v1 w1 x2 
+af $15 a12 b1 c4 d22 e35 f25 i9 j2 k5 l13 m3 n4 o17 p3 r10 s21 t20 u1 w3 x3 y1 
+uy g3 i6 m1 o3 t2 
+dz $3 c1 e17 h1 o3 
+ym $7 a26 b14 c7 d1 e47 f39 i26 k1 l7 m4 o45 p23 s7 t2 u13 y6 
+hn $3 b1 c1 d1 e1 o3 r1 s3 t3 u1 w1 x1 z3 
+ae $12 a1 b1 c4 d5 e3 g9 i4 k3 l8 m91 n31 o1 p1 s27 t2 v6 w6 x30 y2 
+qu $1 a110 e228 i203 n1 o25 p3 t7 v5 
+gs $74 a13 b6 c19 d40 e33 f11 g7 h22 i54 j8 k2 l27 m29 n9 o23 p27 q47 r6 s49 t175 u6 v1 w18 x4 y8 
+ei $8 a1 b2 c24 d14 f5 g22 l16 m64 n105 o18 p17 r12 s71 t32 v3 w1 x1 
+kg $8 a14 b4 c9 d16 e9 f1 g2 h2 i5 j1 k2 l25 m5 n7 o5 p11 r19 s5 t5 u9 v1 w1 y2 
+ok $48 a11 b3 c9 d25 e117 f2 g1 h1 i50 j2 k1 l6 m6 o9 p6 r4 s30 t10 u28 v1 w2 x11 y20 
+^l a93 b6 c38 d25 e29 f8 g5 h4 i17968 k1 l24 m12 n2 o60 p10 r4 s27 t21 u150 v14 w4 x31 y13 z10 
+kf $1 a1 f2 i30 l4 o4 p1 r13 s2 t3 u1 
+yl $1 a26 d4 e41 f2 i46 l16 n1 o27 p12 s1 u5 v1 y14 
+oj $7 a53 b2 d2 e32 i8 j1 m1 o18 p9 s6 t2 u24 
+eh $1 a17 c1 d7 e64 g4 i16 m4 o10 p1 r2 t35 u6 w5 
+gr $14 a480 c4 d6 e239 f3 g1 h2 i150 m3 o130 p4 r2 s8 u54 y1 
+qt $96 a10 b18 c31 d105 e18 f2 g29 h7 i9 k5 l6 m25 n9 o18 p28 q97 r9 s105 t17 u4 v2 w38 x32 y3 
+ux $38 a2 b7 c6 d36 e5 f6 g18 h20 i25 j2 k5 l5 m5 n1 o4 p20 r10 s10 t9 u5 v1 w3 
+^m $1 a295 b46 c21 d16 e126 f4 g39 h9 i109 j3 k14 l35 m12 n8 o216 p66 r29 s22 t15 u143 v1 w5 x1 y103 z2 
+ra $147 a11 b71 c403 d177 e11 f51 g90 h3 i116 j5 k14 l90 m266 n589 o8 p369 q5 r57 s146 t198 u18 v39 w76 x3 y86 z30 
+ho $15 a11 b9 c22 d35 e5 f1 g21 h3 i23 l24 m18 n3344 o57 p22 q1 r182 s57 t66 u18 v12 w26 z2 
+ad $96 a132 b131 c31 d132 e433 f23 g2 h1 i144 j15 k2 l57 m81 n5 o611 p47 q1 r45 s58 t9 u20 v12 w8 x3 y5 
+nr $3 a26 b3 c9 d7 e110 f5 g5 h1 i4 j3 m11 n4 o32 p23 q1 r1 s17 t6 u24 w1 x1 y2 
+uw a1 i5 m1 s41 
+ki $39 a2 b5 c40 d23 e35 f4 g6 h4 i10 j1 k3 l21 m46 n97 o19 p28 q1 r5 s13 t229 v3 w8 x2 z5 
+xp $8 a73 c12 d8 e93 g6 h1 i18 j6 l32 m13 n1 o43 p9 r79 s6 t1 u3 y2 
+yc $2 a49 d2 e4 f1 h29 i12 k4 l46 m2 o89 p3 r8 s3 t1 u15 y2 z1 
+ak $23 a15 b1 c1 d13 e190 g1 h3 i15 k2 l5 m3 o29 p8 r3 s8 t10 u11 v1 w1 y3 
+rn $29 a54 b4 c4 d10 e61 f2 g14 i25 j1 l11 m2 o11 p6 r1 s39 v1 w1 
+dt $19 a14 c4 d21 e27 f1 h9 i3 j1 l1 m1 o50 p9 q1 r21 s2 t1 u2 v3 y2 
+eg $34 a75 c6 d30 e135 g11 h1 i49 j5 l34 m6 n16 o12 p9 r78 s13 t55 u21 v2 x1 y2 z1 
+^b a152 b10 c12 d3 e26 f4 g3 h1 i118 k2 l79 m5 n2 o70 p7 r42 s15 t8 u36 v1 w7 x1 y6 z19 
+oe $10 a2 b7 c25 d14 f7 g2 h4 i3 j2 k4 l5 m3 n7 o1 p4 r6 s18 t3 u2 x13 
+qz e3 h1 i2 
+kh $1 a12 d2 e12 i8 k1 m5 o15 s4 t20 u7 
+xq d2 f1 i3 l1 t1 u4 w1 
+ha $20 b20 c40 d23 e3 f1 g5 h1 i56 j3 k25 l11 m59 n176 o5 p71 r204 s177 t34 u4 v5 w13 x8 y2 z2 
+ef $18 a86 b2 c6 d16 e58 f17 g2 h3 i75 l30 m5 n1 o181 p11 r21 s19 t20 u16 w1 x1 z1 
+du $11 a12 b3 c55 d19 e1 f1 g27 h2 i53 k1 l337 m78 n39 o6 p18 r12 s14 t35 v1 w3 
+yb $1 a24 c2 d8 e15 i29 l7 n1 o36 p1 r14 s4 t1 u13 w6 y1 
+uv $2 a2 c7 d2 e9 i8 o3 
+^c $2 a209 b11 c16 d33 e46 f12 g14 h96 i46 j2 k5 l260 m26 n3 o276 p63 q1 r70 s23 t16 u52 v21 w8 x4 y41 
+aj $2 a90 b1 d2 e9 i10 l8 m2 n6 o2 p4 r1 s3 u2 w1 y1 
+od $47 a79 b168 c24 d29 e824 f17 g24 h1 i72 j8 l31 m27 n16 o199 p51 q1 r22 s38 t18 u338 v4 w17 x2 y12 
+ns $246 a79 b56 c141 d120 e136 f56 g21 h89 i181 j52 k28 l75 m56 n14 o160 p200 q37 r28 s130 t289 u46 v27 w10 x3 y21 z2 
+ro $65 a40 b65 c151 d115 e19 f805 g94 h7 i58 j44 k33 l171 m98 n155 o207 p99 q1 r55 s106 t133 u121 v42 w71 x139 y1 z2 
+qy $1 m2 z2 
+uu $2 a4 b1 c3 d4 i29 l4 n1 s3 t3 
+hb a17 c1 d1 e4 i4 l3 o22 p1 r2 u5 
+kk $15 a11 c10 d10 e3 h3 i1 o14 s2 t1 u3 
+dv $4 a6 b27 c1 d23 e4 g1 h2 i28 l7 o1 s1 t2 
+ya $12 b6 c27 d19 e2 f3 g22 h9 i1 j9 k8 l33 m72 n15 o3 p21 q1 r15 s18 t9 u10 v4 w16 x1 z7 
+np $10 a117 b6 c10 d23 e207 g23 h15 i43 j4 k9 l175 m7 o47 p9 q1 r118 s19 t25 u70 v1 w3 y407 
+ai $35 a10 b2 c15 d31 e17 f6 g2 h6 i2 k8 l419 m27 n240 o8 p7 q1 r145 s27 t24 u1 v1 w3 
+rl $3416 a123 b8 c15 d57 e6 f5 g3 i142 j3 l3 m9 n95 o41 p40 r7 s15 t11 u6 v5 w2 x3 y2 
+og $98 a35 b8 c18 d65 e28 f7 g94 h1 i48 j10 k2 l99 m12 n35 o39 p34 r101 s54 t20 u26 w3 x1 y9 z1 
+xr $6 a17 b1 d11 e24 i2 l1 o5 p5 s2 t6 u2 v1 
+ee $90 a14 b29 c67 d223 e39 f30 g18 h20 i11 j7 k23 l29 m46 n106 o2 p112 q5 r59 s35 t74 u2 v20 w8 x106 y4 z8 
+qx l2 m7 t11 w1 x5 
+nq $1 a2 c8 d1 g2 p6 r3 s4 t38 u25 w4 
+hc $6 a98 b106 c201 d140 e60 f52 g82 h293 i51 j9 k6 l80 m118 n63 o82 p172 q12 r89 s214 t122 u52 v33 w72 x56 y48 z16 
+dw $4 a17 b1 d3 e14 g1 i9 j2 m1 o6 r5 s5 w2 z1 
+kj a54 b1 d1 n11 o3 r5 s4 u1 v3 
+ah $8 a10 b3 c2 d6 e11 f1 i34 j11 l1 n1 o16 p1 s3 t8 u3 v3 y1 
+xs $3 a15 b2 c15 d9 e108 h14 i6 k2 l31 m1 n1 o14 p41 q6 r1 s7 t32 u11 v4 y13 
+ed $133 a177 b298 c32 d65 e709 f29 g20 h9 i453 j10 k3 l12 m28 n14 o438 p81 q1 r37 s29 t23 u110 v2 w6 x3 y2 z1 
+of $725 a23 b4 c6 d6 e5 f259 g4 h2 i83 l10 m1 n9 o25 p13 r35 s17 t69 u7 w1 x13 
+ut $64 a25 b4 c22 d43 e135 f35 g4 h250 i717 j13 k1 l28 m11 n6 o158 p46 q1 r20 s23 t85 u12 v2 w2 x2 y6 z1 
+rm $91 a231 b9 c20 d41 e58 f7 g5 h14 i84 j7 k1 l21 m4 n9 o51 p26 q1 r8 s53 t15 u23 v5 w46 x2 y15 
+^a $1 a5 b30 c49 d25 e20 f11 g12 h3 i12 j3 k8 l66 m48 n73 o14 p135 q4 r83 s157 t43 u92 v23 w12 x21 y3 z1 
+gy $17 a2 d2 e1 l4 o6 p7 r3 
+ao $9 b6 c10 d7 e2 f24 g1 i1 k4 l14 m2 n1 o3 p15 r1 s4 t2 u1 y2 
+rj $4 a148 b1 d3 e1 m1 n1 o1 p2 s9 t1 u2 
+yg $1 a9 c1 d5 e35 f3 h7 i8 l16 m9 n3 o12 p2 r20 s6 t11 u14 
+dp $19 a55 b3 c14 d24 e198 g18 h9 i31 k15 l62 m22 n2 o11 p8 r66 s3 t7 u11 x2 y6 
+hd $15 a31 b85 d9 e115 f43 g1 h4 i22 k1 l5 m1 n1 o58 p8 r3 s3 u3 w1 
+xt $73 a77 b7 c29 d60 e116 f24 g10 h14 i21 j9 k2 l17 m14 n10 o27 p35 q3 r250 s29 t33 u51 v4 w17 x9 y25 z1 
+us $179 a43 b70 c66 d74 e183 f21 g143 h28 i243 j8 k14 l16 m42 n6 o15 p52 q5 r14 s49 t156 u12 v16 w8 x34 y12 z3 
+ec $64 a148 b3 c16 d59 e38 f3 g14 h110 i66 j28 k133 l184 m20 n10 o459 p35 r39 s26 t549 u66 v1 w1 y3 
+km $5 a72 b1 d1 e19 f7 i26 l10 m15 o42 p10 r3 s28 t1 u8 v2 y5 
+nv $34 a51 b5 c10 d19 e113 g4 h2 i100 l4 m8 n1 o26 p22 r8 s15 t10 v1 w1 
+^f $1 a71 b15 c98 d8 e69 f25 g12 h3 i188 j1 l89 m2 n3 o348 p54 q1 r153 s40 t31 u152 v4 w12 x3 y1 
+oa $4 a7 b3 c12 d118 f1 i2 j1 k2 l9 m11 n1 p85 r64 s17 t23 u53 
+gx $5 d2 f1 g4 i2 j4 k1 m10 n2 p5 t1 
+nw a21 c2 d6 e47 h13 i15 l2 m1 n1 o8 r6 s15 t1 x8 
+rk $54 a10 b9 c8 d46 e32 f9 g1 h5 i23 j14 l6 m27 n3 o12 p25 q6 r8 s45 t13 u14 w3 x3 z4 
+kl $3 a20 d7 e27 i49 o16 u6 w1 x1 
+yf a23 c1 e2 f9 i32 l8 o26 p5 r5 s2 t2 u4 
+dq $1 a1 c4 d1 o1 s2 t10 u3 w1 
+ur $22 a82 b15 c142 d30 e177 f22 g13 h3 i117 j1 k5 l82 m29 n52 o20 p23 r21 s86 t9 u18 v12 w6 y2 
+^g $3 a238 b13 c136 d41 e183 f49 g2 h16 i262 j6 k30 l119 m65 n325 o198 p70 q2 r143 s93 t76 u41 v14 w18 x7 y5 z3 
+xu b4 c1 i9 l65 n2 p1 r2 s62 t19 
+an $267 a248 b40 c173 d485 e167 f37 g614 h14 i131 j23 k51 l47 m57 n112 o68 p84 q2 r51 s238 t253 u66 v34 w7 x10 y110 z17 
+he $73 a94 b19 c137 d99 e64 f6 g6 h6 i51 j5 k4 l189 m381 n108 o15 p55 q1 r204 s74 t9 u4 v8 w18 x41 y4 z1 
+eb $53 a96 b3 c51 d26 e17 f8 g4 h12 i211 j2 k73 l31 m16 n8 o73 p24 r80 s80 t13 u80 v5 w3 x1 y7 z2 
+rh a14 c1 e14 i11 n3 o4 p3 r1 t9 u5 y9 
+ye $4 a6 b1 c4 d8 i1 j1 k3 l14 m9 n8 o1 p3 q1 r86 s62 t8 v30 w2 x27 y1 
+ko $32 a1 b10 c10 d14 f25 g1 h4 i10 k2 l23 m15 n45 o1 p19 r18 s7 t3 u10 v4 x1 
+xv $2 a4 b3 d6 e2 f3 i9 k1 m6 n5 o1 p1 t11 
+uq m5 t5 w2 
+hf $4 a4 d1 e1 f1 i5 l1 o6 p1 r2 s19 u9 
+dr $34 a55 b6 c2 d26 e67 g1 i122 j1 k2 l1 m15 o74 p49 r1 s7 t2 u39 v4 w2 y3 
+nt $441 a176 b13 c65 d215 e315 f29 g49 h95 i201 j28 k11 l86 m24 n14 o133 p132 r264 s527 t62 u75 v15 w24 x16 y16 z4 
+^d $1 a59 b24 c24 d13 e177 f4 g1 h43 i211 j22 k4 l11 m17 n18 o131 p25 r51 s19 t7 u11 v40 w7 x6 y9 z2 
+oc $2941 a510 b45 c24 d43 e69 f21 g17 h75 i72 j7 k406 l66 m16 n10 o176 p49 q1 r107 s74 t126 u25 v2 w4 x4 y5 z3 
+ea $19 b21 c54 d231 e1 f4 g14 h5 i1 j3 k58 l51 m256 n122 p56 r210 s189 t80 u55 v11 y2 
+am $102 a147 b133 c29 d118 e417 f32 g14 h7 i95 j37 k3 l507 m47 n6 o90 p262 q19 r15 s83 t17 u22 v2 w3 x6 y14 z1 
+hg $4 a1 c2 e6 f1 i2 l7 m2 n1 o3 p1 r4 s3 t10 u6 v3 
+gz $3 d2 e2 i8 o2 r1 s1 t1 
+kn $5 a3 b1 d2 e20 f1 g1 i2 l3 o34 t1 u3 
+up $61 a41 b2 c2 d46 e87 f6 g20 h1 i6 j5 l54 m5 n49 o12 p106 r9 s86 t28 w2 x1 y1 z3 
+xw $2 a3 e2 h2 i11 j1 l3 o5 p1 r5 s1 
+yd $8 a29 b55 d8 e107 f1 h2 i7 l1 n2 o99 p3 r7 s3 u2 w1 y1 
+ds $74 a15 b9 c25 d55 e46 f6 g1 h24 i23 j7 k5 l7 m6 n5 o51 p66 q14 r9 s29 t35 u13 v5 y21 
+ob $11 a36 b22 c9 d8 e41 f4 i53 j146 l20 m31 n1 o66 p5 q2 r10 s16 t3 u253 w2 y7 
+^e $2 a13 b20 c74 d48 e6 f17 g2 i20 j3 k17 l33 m54 n30 o10 p27 q6 r96 s20 t23 u6 v29 w3 x59 y1 z12 
+nu $31 a60 b9 c20 d13 e5 f6 g18 h1 i15 j6 k11 l9 m138 n41 o2 p50 q5 r50 s70 t101 v5 w4 x150 z3 
+ri $36 a141 b134 c172 d158 e84 f36 g51 h1 j2 k5 l44 m88 n367 o37 p227 q4 r1 s168 t183 u4 v151 w1 x23 z13 
+al $249 a136 b39 c118 d119 e153 f13 g49 h12 i263 j9 k47 l429 m34 n37 o82 p119 q4 r8 s98 t73 u29 v10 w18 x6 y91 z7 
+wu $2 b4 g1 k1 p1 t6 z1 
+zn c6 e7 g3 i2 p2 
+vb $3 a9 c4 e1 h2 i12 l4 n1 o5 p5 r4 s5 t2 v4 
+ld $64 a186 b245 c16 d20 e699 f4 h4 i34 j3 k5 l7 m19 n7 o231 p22 r14 s43 t15 u12 w1 x1 y2 
+pp $119 a50 b1 c35 d89 e274 f7 g11 h19 i28 j3 l190 m9 n6 o60 p44 q7 r81 s81 t16 u13 w1 y30 
+fr $51 a124 c5 d7 e412 g3 h1 i13 k1 m2 o46 p4 r1 t1 u8 w2 
+ik $13 a14 b1 c2 d14 e57 i103 j2 k11 m12 o5 r2 s12 t1 u8 v4 w2 z3 
+si $48 a28 b21 c139 d109 e22 f10 g115 h2 i2 j1 k4 l51 m264 n149 o370 p95 q1 r6 s124 t95 u2 v8 w5 x44 z19 
+cy $25 a7 b4 c19 d9 e40 f2 i6 j1 k4 m4 n1 p12 r48 s1 t12 u1 x8 
+bf $6 a51 b10 c13 d11 e32 f25 g9 i134 j2 k6 l64 m15 o64 p9 r89 s25 t8 u19 w1 x5 y3 
+mw $3 a52 b2 c4 d2 e22 h1 i14 l5 m1 o3 r2 u1 w1 
+mv $5 a8 c5 d1 e11 f1 g1 i22 m3 n1 o2 p7 r1 t3 
+cx $7 c4 d8 e3 g3 h3 m33 o1 p2 r3 s15 t2 v4 x15 
+ij $2 a50 i13 j4 k1 n3 p2 r3 s7 u2 
+zo $4 b1 c4 d3 e2 f1 i1 l2 m1 n34 o22 p59 r34 u3 
+pq $2 a1 b1 c3 d7 i1 p1 r4 t15 u3 x5 
+wt $15 a3 c7 d22 e9 f4 g11 h5 i5 j4 k3 m1 o16 p11 q3 r1 s2 t4 v5 w4 y3 
+vc $10 a8 c4 d13 e2 f1 h5 i4 j2 l13 m1 o23 p3 q1 s12 t5 u1 v5 
+fs $98 a6 b8 c23 d43 e10 f10 g15 h13 i4 j12 k5 l15 m9 n6 o33 p29 r9 s7 t50 u16 v5 w6 x1 y3 z1 
+sh $175 a197 b21 c35 d74 e143 f10 g6 h10 i133 j11 k14 l7 m22 n1 o120 p57 r13 s25 t29 u20 v1 w9 x1 y3 
+bg $2301 a53 b3 c62 d96 e155 f44 h2141 i43 j2 k4 l271 m43 n150 o62 p44 r84 s75 t145 u77 v14 w16 x4 y2 z1 
+le $336 a97 b38 c200 d227 e50 f44 g78 h15 i44 j20 k24 l63 m84 n110 o32 p341 q36 r313 s579 t237 u29 v41 w46 x231 y29 z13 
+zl $2 c3 d2 e25 i28 t3 u2 
+ww $20 b4 c5 d1 f3 g1 i11 l1 m13 n1 o1 p2 r1 s4 t3 w47 x9 y1 
+ii $19 a7 b1 c3 d19 e1 g1 j1 l1 m11 n11 o3 p7 r3 s5 t2 
+fp $8 a9 c7 d12 e54 g4 h4 i3 l12 m4 n1 o9 r22 s4 t2 u31 y1 
+lf $10 a6 c11 d2 e18 f5 g4 h3 i40 j3 l7 m3 n1 o27 p3 r19 s7 t4 u11 w10 
+pr $18 a44 b6 c7 d19 e238 f1 h2 i269 j4 l1 m2 n9 o1372 p6 r4 s5 t3 u21 w2 y5 
+bd $21 a188 b223 c28 d15 e289 f8 g1 h2 i101 j7 k9 l14 m21 n10 o129 p23 r28 s21 t6 u39 v18 w5 x6 y14 
+mu $32 a4 b1 c39 d21 e8 f7 g2 h1 i4 k17 l177 m23 n41 p37 r19 s107 t51 u7 x25 
+sk $51 a54 b22 c40 d30 e74 f7 g14 h12 i44 j5 k35 l18 m24 n11 o13 p41 r14 s72 t254 u8 v6 w5 x3 y17 
+fq t3 u12 
+zm a13 e1 l3 o4 q17 u1 
+cz $1 a2 e15 h2 i3 l9 
+wv $3 c2 d3 e1 s4 
+sj $1 a183 c7 e8 f2 i1 j3 l1 m2 n4 o4 q73 s13 t2 u3 x2 
+va $937 a7 b4 c25 d505 e5 f2 g19 h40 i2 j21 k4 l142 m15 n28 o1 p12 r39 s70 t48 u8 v1 w2 x3 
+mt $16 a26 b7 c4 d12 e22 g3 h16 i8 j2 k20 l17 m4 o47 p51 r8 s3 t8 u3 v1 w1 x7 y4 
+ps $116 a13 b8 c41 d49 e172 f18 g12 h17 i59 j9 k7 l13 m18 n6 o19 p52 q6 r7 s16 t83 u13 v3 w16 y60 
+lg $2 a15 c2 d4 e24 f10 i7 l21 m4 n4 o24 p5 r27 s8 t23 u9 v1 y2 
+ih $1 a9 d4 e4 f1 i2 o6 t8 u2 y1 
+be $36 a54 b15 c38 d48 e31 f15 g7 h1 i20 j3 l101 m48 n72 o3 p23 q2 r164 s25 t45 u6 v53 w5 x126 y2 z5 
+jz i1 l1 
+wq $1 d1 u7 y5 
+fv $5 c1 e1 i8 m3 w4 
+vf b3 e2 i6 l6 o5 r1 s30 t2 u1 
+pt $131 a22 b27 c56 d85 e72 f12 g10 h21 i122 j8 k8 l21 m10 n2 o172 p54 q1 r32 s70 t14 u34 v3 w5 x8 y13 z1 
+tx $22 a6 b4 c9 d7 e10 f8 g1 h1 i2 j3 l11 m48 o1 p7 q1 r1 s14 t59 u5 w4 x7 z2 
+ms $101 a10 b7 c48 d49 e35 f1 g36 h17 i12 j4 k4 l8 m12 n15 o15 p76 r7 s16 t27 u8 v8 w3 x5 y8 
+zj a6 s11 
+bb $4 a54 c11 d12 e47 f5 g3 h6 i101 j3 k1 l80 m4 o128 p18 r20 s15 t7 u50 y16 z4 
+sm $45 a222 b28 c9 d31 e53 f5 g7 h2 i68 j10 l20 m18 n2 o130 p36 s16 t38 u24 v2 x3 y12 
+io $110 a17 b9 c84 d109 e10 f15 g28 h3 i5 j23 k4 l13 m70 n911 o4 p71 q4 r47 s105 t23 u40 v6 w8 x6 z2 
+wp $4 a12 b1 d9 e21 g6 h1 i1 l2 m1 o3 p7 r8 s10 u3 x2 y1 
+vg $22 a2 b1 c6 d16 e3 g6 i1 j1 m3 p10 r3 s2 t2 u2 
+pu $3 a6 b58 c8 d8 e1 f10 g8 h3 i1 k1 l59 m8 n56 p43 r50 s29 t138 u3 x16 y1 z15 
+sl $89 a89 b7 c10 d59 e39 f2 g2 h3 i131 j2 k4 l1 m17 n5 o137 p14 r9 s6 t22 u39 v8 w1 x1 y1 z2 
+mr $14 a13 b19 c1 d4 e23 f1 g1 i11 j1 m6 n4 o4 p18 r1 s4 t10 u23 w6 x4 
+ty $89 a13 b7 c25 d41 e16 f7 g10 h9 i2 j14 k1 l39 m4 n4 o2 p169 q3 r17 s9 t19 u2 v4 w1 x8 
+bc $58 a242 b8 c36 d81 e23 f18 g91 h64 i67 j7 k7 l254 m25 n5 o368 p79 q3 r79 s49 t19 u73 v13 w13 x9 y2 
+la $52 a5 b137 c93 d109 e5 f19 g56 h2 i38 j2 k9 l22 m99 n398 o2 p99 r143 s429 t341 u48 v26 w58 x19 y183 z62 
+in $571 a207 b44 c132 d445 e538 f205 g873 h24 i222 j109 k155 l60 m58 n81 o153 p198 q14 r33 s565 t411 u205 v66 w15 x92 y90 z13 
+fw $12 a2 b4 c1 d10 e2 h1 i2 k3 l1 m4 p1 q2 r1 s1 
+jx d1 g3 p4 r3 
+zh $6 a1 c17 e5 f2 h3 p1 t13 u7 
+tz $8 a6 b1 c5 d7 e8 f1 g1 i26 j2 l2 o1 p1 s2 w1 z1 
+mq $13 a2 c6 d10 h3 j2 p19 s1 t11 u1 
+vd $12 a9 b34 d1 e76 i3 k6 m1 n4 o26 p11 r50 s1 t1 u1 v1 w1 y3 
+lb a54 c1 d1 e32 f4 g2 i26 j1 l2 n1 o37 r10 s4 t4 u21 v1 y1 z1 
+ws $26 a12 b5 c12 d14 e58 f6 g48 h3 i4 j5 k1 l2 m41 n3 o2 p6 r1 s9 t13 u3 w3 y2 
+pv $9 a7 c4 d7 e5 f1 g1 i8 l1 m13 p4 r15 s2 t2 u1 z1 
+so $29 a64 b11 c181 d62 f79 g10 i4 k2 l140 m21 n247 o6 p48 q5 r144 s11 t5 u313 v12 x15 y4 z1 
+ft $32 a7 b8 c11 d23 e29 f1 g5 h17 i17 j5 k2 l2 m5 n2 o40 p129 r13 s8 u2 v4 w38 y8 
+im $62 a280 b16 c30 d74 e452 f13 g47 h11 i59 k8 l19 m28 n2 o47 p274 q2 r7 s24 t14 u28 v8 w8 x3 y8 
+jy t2 u3 
+wr a63 e8 i46 k2 l1 o2 
+pw $6 a13 b1 d6 e9 g2 h1 i18 m3 o1 q6 r4 s7 t2 u1 x1 
+zi $1 c2 e1 l42 m5 n13 o2 p99 r1 s1 t17 u3 v1 
+fu $5 c4 d4 f1 g3 i1 l27 m2 n46 p10 r5 s190 t16 u2 z6 
+sn $13 a74 b4 c1 d34 e33 g9 h1 i22 l4 m40 n3 o61 p13 r2 s3 t6 u5 v3 y3 
+lc $35 a28 c9 d31 e17 f2 g3 h44 i30 j1 k2 l56 m26 n1 o132 p30 r13 s12 t1 u23 v1 x4 y3 z1 
+mp $121 a121 b14 c26 d92 e141 f13 g20 h21 i167 j1 k6 l557 m14 n2 o120 p57 q4 r125 s39 t48 u29 v12 w4 x3 y28 
+il $430 a50 b22 c26 d324 e512 f18 g11 i135 j13 k13 l156 m24 n8 o67 p49 q3 r7 s561 t142 u45 v25 w4 x2 y25 z2 
+ba $20 a16 b48 c259 d48 e6 f8 g4 h3 i13 j3 k15 l174 m34 n148 o10 p203 q11 r147 s516 t98 u105 v61 w7 x7 y9 
+ve $94 a15 b16 c89 d85 e8 f19 g19 h7 i22 j6 k10 l246 m38 n273 o10 p53 q2 r817 s54 t27 u7 v3 w2 x25 z3 
+px $9 a1 c1 d7 e5 f2 h1 l3 m11 p3 s5 t6 u1 x2 z1 
+cq $2 d1 l1 p10 r6 t1 u15 v1 
+fz e1 
+zf e1 i2 j1 l4 o6 s3 t1 
+vj a11 n1 p1 
+jv $2 i6 m2 t1 u23 y1 
+ic $192 a292 b23 c26 d88 e731 f8 g7 h61 i70 j3 k242 l38 m11 n3 o281 p53 q17 r56 s179 t272 u28 v5 x4 y31 z2 
+bn $3 a48 b13 c32 d14 e281 f21 g4 h1 i20 j5 k1 l18 m12 o22 p7 s28 t16 u27 v13 w2 x9 z8 
+ll $160 a136 b21 c31 d115 e225 f23 g25 h14 i167 j4 k10 l14 m36 n160 o80 p66 q5 r15 s37 t33 u16 v33 w5 x2 y18 z7 
+tt $13 a46 b6 c12 d11 e211 f84 g1 h14 i70 l30 m4 n16 o114 p201 r67 s11 t4 u6 v2 w5 x1 y69 
+sa $62 a13 b25 c57 d68 e7 f32 g87 h11 i5 j4 k10 l62 m108 n111 o10 p122 r37 s69 t37 u44 v46 w12 x26 y8 z1 
+vk b2 e1 i1 o4 
+zg $2 e1 l1 o9 u2 v1 
+lm $12 a48 b10 c6 d19 e43 f4 g2 h2 i36 j1 l6 m16 o80 p8 r4 s2 t6 u5 v1 w2 x2 y12 z2 
+py $98 a21 b23 c44 d56 e14 f24 g23 h7 i8 j2 k15 l24 m25 n10 o23 p47 q85 r38 s101 t3288 u3 v11 w9 x22 z4 
+tu $4 a37 b11 c1 d33 f9 g11 i21 k4 l15 m40 n74 o21 p64 r134 s29 t92 u5 x34 
+cp $35 a86 c21 d42 e105 f8 g11 h4 i65 j4 k5 l83 m8 n1 o30 p129 q1 r83 s18 t13 u36 v16 w6 x1 y5 
+bo $6 a42 b45 c69 d36 e7 f15 g41 h2 i24 j6 k12 l34 m41 n26 o290 p249 q1 r52 s94 t74 u51 v2 w34 x165 y15 
+jw a1 c1 m1 s1 t3 
+ib $273 a849 b448 c1377 d875 e466 f528 g3550 h371 i447 j638 k268 l548 m1261 n527 o601 p1049 q348 r747 s1251 t769 u374 v264 w328 x613 y51 z136 
+vh $1 d2 e7 i2 o7 t5 
+zd $2 a13 b15 d1 e24 f1 i1 o13 u1 
+fx $13 b4 c4 d17 f2 g1 h1 l2 m1 p5 s4 t3 x1 
+pz $2 d1 e7 h2 i10 l1 m1 o2 
+ln $27 a46 b35 c30 d30 e99 f33 g29 h42 i31 j21 k31 l21 m15 n35 o17 p40 r25 s55 t26 u19 v13 w1 x3 y1 z22 
+jt $1 a8 b1 d1 e4 h6 i3 o1 r1 s2 x1 y1 
+cs $180 a19 b14 c46 d67 e57 f11 g21 h55 i55 j4 k3 l14 m34 n29 o32 p33 q8 r9 s55 t71 u12 v35 w6 x2 y22 
+tv $21 a3 c6 d3 e12 f4 g1 h1 i33 m3 n7 o27 p4 r1 s7 t4 u2 
+sc $48 a179 b2 c9 d41 e28 f3 g8 h151 i230 j6 k1 l87 m27 n2 o307 p30 r305 s30 t9 u32 v4 w8 x1 y2 
+ia $79 a8 b11 c22 d70 e7 f5 g60 i10 j5 k14 l179 m27 n281 o3 p69 q1 r27 s37 t27 u17 v10 w18 x4 
+bl $21 a159 b4 c19 d30 e413 f5 g15 h5 i170 j2 k10 l12 m2 n2 o200 p3 q3 r10 s13 t25 u90 v6 w26 y1 z17 
+tw $25 a21 b1 c2 d12 e73 h6 i60 l2 m7 n2 o102 p2 q1 r11 s2 t1 w7 y2 
+fy $47 b8 c4 d12 e1 h1 i2 j1 l1 m4 n6 o3 p20 r1 s5 t3 x1 
+ju d3 g4 i4 k3 l4 m15 n47 p2 r24 s2 t9 y1 
+ze $36 a3 b23 c13 d18 e5 f1 g4 h3 i21 j1 l9 m11 n22 o2 p24 r88 s6 t15 u3 w4 x4 y2 
+sb $33 a111 b1 c19 d13 e12 f1 g3 h2 i44 j6 l10 m25 n6 o29 p9 r18 s5 t4 u18 v1 y5 z2 
+bm $17 a373 b8 c35 d24 e96 f1 g10 h2 i93 j4 k1 l41 m19 n9 o467 p66 q1 r33 s22 t17 u52 v5 w4 x9 y35 
+cr $18 a327 b4 c13 d10 e210 f14 g3 h4 i212 j1 k2 l4 m5 n3 o153 p3 r5 s15 t17 u29 v1 y205 
+vi $27 a16 b3 c112 d170 e227 f6 g8 j1 k2 l25 m53 n27 o5 p24 q4 r93 s88 t44 v5 x4 z24 
+lo $23 a106 b271 c251 d31 e2 f1 g436 h13 i7 j30 k9 l1 m21 n53 o90 p71 q1 r110 s25 t142 u112 v18 w61 x1 y9 
+jr $4 a2 e18 i1 o1 u3 
+lh $2 a23 c1 d4 e10 i5 o1 p1 r2 s3 t31 u7 y3 
+wy $1 d6 e1 g1 o1 s2 t2 u1 
+vn $16 a3 b1 c44 d6 h1 i2 j1 k4 l3 m1 n2 o1 p2 q2 r1 s4 w2 
+zb $4 a13 c1 d7 g1 i1 l1 o1 
+bj $6 a161 b10 c58 d13 e150 f7 g36 h6 i19 l13 m12 n14 o19 p16 r2 s241 t14 u15 v1 x8 z1 
+ig $105 a26 b4 c13 d58 e59 f13 g31 h224 i55 j3 k1 l15 m29 n86 o19 p21 r96 s25 t28 u32 v3 w1 x6 y1 z3 
+tp $71 a74 b9 c57 d125 e363 f7 g9 h20 i22 j1 k7 l143 m23 n3 o51 p46 r166 s43 t24 u30 v1 w12 x2 y12 
+cu $13 b26 c3 d30 e18 f4 g1 i11 j3 k3 l61 m20 n37 p54 r217 s29 t73 u9 v1 y2 
+se $276 a124 b23 c163 d163 e44 f13 g25 h8 i10 j7 k9 l166 m87 n166 o10 p104 q32 r926 s166 t175 u11 v7 w15 x156 y2 z6 
+mz $3 c2 d1 h3 m3 x1 
+zc $5 a7 b2 d1 h5 l2 m2 o1 s1 t1 u3 
+tq $1 c1 m7 p1 r2 s6 t67 u32 
+bk $3 a44 b4 c12 d35 e29 f3 g3 h3 i89 j2 k7 l7 m18 n6 o22 p13 q2 r12 s17 t15 u2 v1 w7 x5 y7 
+js $29 a6 b5 c21 d20 e11 f4 g4 h8 i11 j84 l7 m25 n2 o131 p9 q2 r14 s22 t14 u3 v3 w3 x2 y8 z1 
+sd $71 a119 b267 c13 d29 e548 f13 g4 h1 i26 j2 k45 l116 m9 n12 o331 p28 r23 s13 t4 u9 v3 w3 x2 y2 z1 
+if $17 a15 c9 d10 e33 f105 g6 h1 i83 l2 m3 o21 p11 r13 s8 t75 u10 y88 
+wx $16 a2 b3 c1 d3 e1 g15 h2 i2 l1 m2 p3 s8 t2 v1 w2 
+vo $7 a9 b5 c10 d7 e1 g5 i29 k6 l70 m11 r23 s2 t11 u3 w5 x31 y3 
+ct $120 a148 b3 c29 d82 e99 f102 g16 h21 i206 j13 k5 l59 m22 n13 o386 p95 r69 s54 t15 u24 v2 w5 x3 y9 z1 
+li $69 a56 b18543 c212 d120 e416 f32 g230 h1 i6 j5 k14 l28 m71 n546 o70 p144 q45 r17 s171 t290 u6 v168 w1 x33 z44 
+cw $3 a36 c2 d5 e30 g1 i17 l3 m1 n2 o5 p1 r2 s1 t8 y1 
+lj $2 a94 b1 d2 e2 j6 n1 r1 s3 u1 
+vl $11 a3 c26 d6 e10 f5 g1 i2 l3 o4 p1 r1 s1 t1 u3 v1 
+my $16 a8 d11 e2 g11 h1 j4 l15 m4 n1 o2 p15 r4 s202 t22 u2 w1 
+bh $1 a55 b4 c1 d51 e35 f2 i28 k4 l1 m3 o15 p6 s5 t157 u26 w6 x4 y9 z2 
+jp $6 a12 d4 e32 f2 g4 h2 i12 l5 m1 n3 r2 s1 t1 y3 
+sg $18 a38 b77 c3 d11 e34 f28 g1 h2 i76 j1 l24 m20 n6 o13 p14 r76 s48 t24 u30 w4 z1 
+tr $35 a724 b3 c9 d14 e435 f7 i376 j1 k1 l12 m2 n1 o231 p11 r1 s11 t7 u79 w2 x1 y130 
+ie $50 a2 b4 c22 d26 e18 g1 h1 i3 j5 l35 m16 n476 p13 q1 r94 s95 t10 u1 v23 w206 x18 
+wz $1 i1 l1 
+jq $1 u80 
+cv $4 a7 c12 d4 e27 f4 g2 h2 i18 j2 l2 m7 o9 p3 s26 t9 v4 x1 
+mx $15 a2 b5 c1 d13 e1 i15 j1 k1 m8 p4 q2 r1 s3 t6 u4 x6 
+za $12 a2 b11 c1 d3 g2 h1 i4 k5 l1 m2 n5 p6 q2 r29 s1 t27 z3 
+sf $10 a16 b2 c4 d6 e18 f10 g1 i54 j3 l8 m24 o45 p2 r21 s24 t21 u13 v4 x2 
+vm $35 a6 b1 c11 d20 e8 f2 i3 j3 l2 m5 n1 o7 p6 r3 t14 v2 w4 
+lk $25 a3 b2 c3 d13 e12 f1 h10 i58 k2 l2 m5 n4 o2 p5 r9 s19 t7 u2 y2 
+ts $268 a38 b32 c146 d120 e111 f22 g30 h15 i60 j28 k24 l47 m67 n24 o57 p129 q36 r12 s68 t115 u51 v29 w16 x9 y31 z1 
+id $121 a106 b86 c18 d64 e498 f32 g133 i134 j12 k1 l38 m24 n20 o85 p48 q1 r26 s94 t21 u15 v5 w6 y27 z15 
+bi $52 a116 b59 c95 d62 e14 f20 g27 h1 j3 k22 l64 m49 n510 o164 p82 q2 r105 s93 t132 u1 v5 w9 x54 z3 
+bv $5 a41 b3 c5 d18 e30 f2 h2 i75 l14 m4 n6 o37 p11 s3 t31 u1 w2 x2 
+vr $6 a9 c5 d4 e5 f1 g1 i1 l1 m8 n3 o1 p3 r2 t1 u3 v2 w1 
+jn a8 d1 e1 i42 l1 o2 p1 r5 u1 
+we $3 a129 b360 d12 e33 g7 i6 k2 l9 m1 n18 o1 p3 r96 s42 u2 x3 
+mg $9 a2 c1 d9 e28 i8 k1 l50 m8 n4 o7 p7 r22 s3 t23 u2 v1 
+fb $10 a9 b3 c4 d10 e4 f4 g4 i9 m1 o3 p3 r5 s2 t6 u9 v1 w2 x2 z1 
+sy $9 a4 b22 c39 d5 f8 g3 h1 j1 l14 m88 n158 o8 p21 r7 s337 t5 u8 z1 
+tl $49 a62 b6 c7 d48 e81 f2 g4 i109 j4 l1 m13 n2 o38 p12 r18 s43 t3 u7 w16 x1 y8 
+ci $10 a36 b2 c24 d48 e63 f8 g7 i24 j5 k2 l409 m37 n124 o35 p65 r22 s10 t164 u1 v7 x6 
+lt $50 a29 b2 c22 d52 e178 f4 h15 i171 j8 k29 l3 m5 n1 o93 p16 r44 s19 t33 u5 v6 w2 x1 y3 
+vs $9 a3 b1 c8 d5 e15 f2 g2 i2 m2 n3 o1 p3 q3 s3 t12 u3 w13 
+bw $3 a32 b8 c7 d1 e62 f8 g2 h5 i92 m6 n14 o5 p12 r12 s10 t23 u1 v8 w28 x22 
+jo $1 b40 c3 d12 e2 g4 h3 k1 l8 m1 n11 p5 r3 s6 t3 u13 v3 x1 y7 
+mf $18 a9 b1 c3 d16 e6 f5 i32 j1 l11 m1 o47 p4 r4 s14 t2 u9 
+sx $19 b2 c2 d6 f8 g1 h5 i36 j3 l1 m8 o2 p8 r3 s6 t1 v1 w2 x1 
+iz $16 a33 b1 d12 e99 g1 i5 m4 n6 o6 p3 r1 s4 t2 u1 z9 
+wd $16 a8 b23 d1 e54 f1 g4 h1 i8 j1 l1 m2 o27 p5 q5 r2 s1 t1 u2 x1 y2 
+pa $37 a3 b3 c418 d68 e15 f7 g63 h3 i38 j9 k3 l50 m102 n179 o4 p45 q6 r511 s132 t332 u27 v9 w16 x10 y18 
+fc $27 a7 b1 c6 d11 e84 f1 g18 h3 i98 k1 l16 m2 n1 o33 p7 r4 s5 t2 u2 v2 
+lu $8 a181 c31 d47 e87 f19 g1158 i18 k2 l4 m41 n27 o5 p4 r49 s155 t140 v1 x7 z2 
+ch $186 a331 b15 c24 d100 e723 f6 g11 h4 i169 j17 k7 l11 m32 n3 o83 p55 q1 r49 s95 t93 u15 v3 w8 x35 y16 
+tm $24 a115 b3 c9 d18 e24 f2 g1 i36 j2 k1 l306 m6 o84 p29 q13 r4 s1 t3 u38 v2 x1 y8 
+iy a1 
+wg $3 a2 d6 e7 g1 k1 l8 m1 n4 o1 p1 r4 s1 t4 u2 w1 
+tn $3 a21 b1 c3 d2 e47 f3 g22 i62 l5 n2 o19 s4 t20 u9 y1 
+pb $4 a24 b2 c1 d7 e3 f3 i8 k3 l1 m6 n1 o7 p2 r5 s6 u4 z1 
+lv $24 a11 b1 c5 d14 e47 f2 h1 i26 j1 m38 n1 o2 p3 s3 t8 u2 v1 w1 
+vp $4 a8 b7 c1 e29 g1 h3 i2 l9 m2 n22 o1 p1 r9 s1 x5 y2 
+bt $6 a89 b4 c26 d6 e368 f2 g2 h29 i97 k22 l1 m2 n5 o81 p7 r57 s14 t5 u15 v1 w7 x4 y16 
+jl $3 a7 d3 e2 h3 i9 j1 t2 
+ck $260 a106 b23 c82 d164 e276 f23 g19 h9 i32 j20 k3 l42 m43 n8 o21 p77 q10 r26 s103 t37 u45 v1 w11 x5 y15 z2 
+me $245 a25 b30 c106 d347 e36 f34 g22 h8 i20 j15 k19 l51 m110 n249 o23 p65 q2 r346 s307 t241 u16 v22 w86 x25 y2 z5 
+sz $3 e1 f1 g1 h4 l4 o2 z1 
+lw $1 a12 b1 c4 e22 g17 h1 i27 j3 m10 n1 o3 p14 r15 t8 x1 
+wf $5 a13 d2 f1 i13 j1 m5 o2 r2 s6 t4 u6 
+fa $13 a12 b6 c96 d29 e3 g1 h1 i38 k21 l40 m16 n25 p13 q9 r45 s64 t25 u55 v1 x18 y1 
+jm $1 a14 d3 e20 i2 k1 m1 o9 p4 s3 t1 x1 
+cj $22 a59 b1 c1 d8 e1 g1 j14 k17 m4 n2 p2 s15 u3 
+pc $69 a61 b10 c15 d27 e7 f3 g1 h10 i27 j2 k9 l86 m13 o81 p52 r33 s29 t8 u10 x2 
+ix $74 a6 b21 c38 d30 e50 f6 g11 h1 i16 j7 l16 m41 n2 o14 p34 r2 s23 t11 u6 w1 x5 z1 
+to $65 a12 b40 c198 d52 e8 f30 g18 h13 i17 j4 k48 l21 m121 n176 o810 p415 r788 s19 t34 u32 v6 w6 x13 y8 
+bu $3 b14 c19 d17 f47 g53 h4 i156 l33 m24 n130 p23 r60 s504 t80 u7 v3 x1 z8 
+md $68 a93 b115 c8 d17 e198 f2 g3 h4 i15 j5 k3 l6 m5 n6 o87 p16 q2 r8 s12 t2 u5 x1 y2 
+vv i5 m1 o1 
+zz $5 a3 b2 d3 g1 i4 l24 n2 o1 u1 y9 
+br $38 a175 b5 c15 d47 e388 f1 g8 h8 i110 j2 l18 n1 o241 p15 r9 s24 t22 u24 v2 x4 y7 
+jj a44 d3 n1 r8 
+th $141 a72 b9 c44 d98 e361 f14 g10 h6 i44 j16 k3 l36 m51 n10 o3336 p58 q4 r72 s41 t64 u135 v16 w7 x2 y92 z11 
+pd $87 a55 b128 c20 d19 e251 f121 g1 h3 i16 j1 k3 l22 m26 n17 o151 p21 r9 s15 t3 u11 v1 w2 z2 
+lp $43 a94 c19 d39 e287 f3 g16 h38 i12 j1 k10 l98 m2 n2 o44 p12 r80 s19 t18 u5 v2 x1 y16 z2 
+ff $67 a6 b5 c4 d19 e45 f1 g2 i291 l23 m21 n2 o2 p18 q2 r12 s6 t44 u4 v1 x3 y17 
+cm $24 a86 b4 c9 d48 e29 g1 h3 i44 j6 k1 l7 m6 n1 o71 p18 s10 t19 u24 w3 x1 y3 
+mc $24 a74 b1 c9 d17 e13 f3 g3 h15 i9 k1 l23 m7 o74 p28 r19 s5 t13 u5 v1 w1 
+wa $5 b8 c7 d6 e4 f6 g5 h4 i37 j1 k6 l43 m11 n32 p15 r145 s10 t48 u1 v28 w6 x2 y22 
+jk $4 a1 c8 d1 j2 k1 l1 m1 p1 t1 
+vw $1 d1 i1 l1 m5 r1 
+lq $1 a1 m1 p1 r3 t8 u10 
+bs $50 a74 b31 c65 d135 e115 f17 g9 h68 i85 j1 k12 l26 m73 n35 o150 p131 q39 r11 s43 t172 u62 v41 w42 x3 y75 
+fg $4 a4 d5 e12 f6 i1 l15 m1 o2 r2 s8 t7 u1 w2 
+mb $12 a126 c12 d17 e67 f1 g2 h1 i35 k2 l33 m3 n17 o55 p7 r45 s5 t5 u21 w2 y2 z1 
+pe $64 a62 b7 c156 d35 e57 f5 g74 h3 i9 j8 k3 l240 m14 n793 o6 p31 q1 r3918 s117 t79 u3 v3 w7 x20 y7 
+ti $26 a53 b15 c226 d54 e70 f134 g14 h4 i5 j2 k8 l722 m343 n260 o551 p41 q2 r16 s63 t75 u25 v181 w2 x8 z10 
+cl $73 a391 b9 c32 d62 e68 f11 g6 h10 i676 j2 k4 l9 m15 n8 o160 p24 q4 r13 s38 t30 u111 v5 w2 x13 y2 z6 
+jh a1 b1 d5 e1 l1 o1 
+pf $10 a4 b2 c2 d5 e1 f5 i25 j1 l8 m8 o12 p5 q5 r12 s20 t2 u2 x2 
+fd $7 a4 b49 c2 d1 e100 f2 g13 i6 j1 k6 m1 o57 p5 q1 r5 s2 t2 u4 x2 
+tj $2 a139 d9 e11 h1 i1 j4 m4 n4 o3 p1 r2 s15 
+vt $9 a2 c3 d3 e31 g1 h1 i2 k34 l5 m4 n1 o36 p3 s2 t4 u5 v6 w1 x1 y3 
+lr $11 a8 c9 d15 e42 f3 g3 i2 j3 m4 n4 o7 p29 s12 t2 u26 x11 z2 
+bp $4 a240 c70 d24 e113 f11 g28 h50 i38 j12 k7 l125 m7 n8 o192 p33 q15 r113 s17 t15 u29 v1 w8 x1 y44 
+zx $1 m1 
+ma $99 a16 b6 c134 d69 e4 f2 g285 h11 i361 j11 k81 l91 m24 n447 p273 q3 r199 s79 t496 u5 v134 w23 x16 y7 z22 
+co $28 a8 b21 c28 d266 e9 f20 g21 h1 i64 j3 l227 m1140 n1076 o51 p91 q15 r399 s23 t52 u114 v52 w13 x4 y3 z2 
+wc $4 a17 d4 f1 h4 i3 l4 n1 o11 p5 r3 s12 t2 u3 x1 
+bq a8 b2 c11 d18 e5 f2 g16 h3 i3 j4 m11 o7 p10 q2 r4 s9 t166 u42 w9 x18 z5 
+zy $5 a1 b1 d3 e1 g3 j1 l1 m2 n4 o1 p12 r1 s2 t1 
+ji $6 b6 d4 e16 f3 g7 k4 m5 n16 p1 r3 s15 t11 u2 
+wb $3 a12 c2 d2 e9 f1 i7 l1 o5 p1 r7 u8 x5 z1 
+tk $212 a22 b13 c27 d155 e47 f3 g42 h28 i21 j17 l2 m41 n3 o8 p17 q2 r11 s53 t19 u5 v9 w12 x1 
+pg $38 a25 b2 c3 d17 e15 f7 g1 h1 i3 j3 l7 m22 n12 o8 p41 q3 r28 s45 t16 u27 v3 w3 x3 
+vu $13 b1 c4 d4 e2 l8 m1 n2 p2 s5 t6 
+fe $16 a12 b2 c23 d24 e45 f4 g3 h3 i4 l33 m19 n30 o12 p6 r86 s53 t18 x6 y2 
+cn $16 a7 b1 c3 e27 f1 g2 i1 l2 o16 r1 s10 t2 u16 v2 
+ls $883 a90 b24 c46 d177 e123 f10 g16 h21 i33 j29 k5 l11 m29 n13 o33 p81 q29 r12 s14 t43 u6 v7 w9 x11 y10 z1 
+jf d1 e1 f3 l1 o2 r4 s2 t1 u2 
+zv b6 o10 
+vz $2 c1 d1 q1 s1 
+wm $37 a23 b4 c10 d7 e17 f8 g3 h3 i10 k1 l5 m9 n5 o8 p7 r2 s5 t6 w3 x5 
+fj $1 a24 j2 n2 s2 u1 
+ph $42 a44 b1 c4 d22 e106 f12 g9 i163 j3 l7 m4 n1 o249 p498 q1 r14 s10 t18 u3 v15 w2 x2 y58 
+sq $9 a5 b1 i2 l544 m7 s2 t10 u73 w2 
+ca $81 b72 c170 d71 e6 f9 g5 i114 j17 k6 l361 m443 n212 o2 p148 r101 s112 t391 u22 v11 w4 
+td $52 a92 b264 c54 d14 e543 f9 g2 h5 i52 k2 l14 m17 n13 o282 p13 q3 r17 s15 t6 u10 v1 x1 y1 
+is $136 a53 b6 c141 d92 e74 f3 g12 h169 i35 j8 k105 l12 m23 n7 o99 p111 q5 r8 s100 t384 u51 v2 w11 x6 y9 
+mo $36 a2 b44 c97 d694 e14 f4 g1 h3 i17 j26 k53 l21 m7 n1341 o121 p18 r82 s51 t68 u58 v15 w8 x3 y2 z25 
+zw a1 
+jg c1 i4 l14 o8 r17 
+fk a5 d4 i8 m1 o8 
+mn $7 a3 c1 d6 e14 f1 g4 i38 l6 n2 o11 p4 s2 t1 u4 
+wl $10 a6 b1 c1 d2 e2 i14 l58 m5 o12 p10 t2 v1 w1 y1 z1 
+pi $146 a32 b4 c121 d147 e27 f7 g24 h6 j32 k31 l68 m45 n135 o20 p129 r24 s27 t24 u8 v13 w2 x39 
+sp $48 a242 b2 c14 d40 e754 f18 g5 h75 i82 j4 k3 l217 m5 n3 o53 p17 q1 r251 s14 t14 u16 v3 w1 y33 z2 
+te $331 a49 b16 c96 d295 e30 f8 g48 h8 i18 j8 k12 l144 m392 n244 o18 p222 q6 r920 s638 t101 u12 v16 w17 x596 
+ir $24 a37 b7 c95 d104 e355 f9 g56 h4 i33 j3 k5 l14 m56 n5 o136 p42 q3 r37 s40 t90 u18 v3 w6 x1 y2 z4 
+vx $1 c1 e1 i1 l2 o1 s1 
+pj $2 a47 d1 j3 l1 m4 n1 p4 s5 
+iq $1 b2 r3 s1 t7 u66 w1 
+wo $2 c5 d3 f6 g1 k1 l8 m2 n2 o4 p1 r304 s1 t2 x2 
+mm $19 a94 b2 c8 d47 e55 g3 h1 i24 j3 k2 l6 m9 n3 o716 p13 s82 t4 u25 v6 x3 y14 z1 
+tf $20 a39 b16 c10 d23 e8 f5 g3 h1 i76 j3 k4 l23 m18 n1 o68 p15 r125 s54 t17 u15 w4 x2 
+jd $1 a2 b9 e12 i6 k18 o13 p1 r1 t2 
+cc $53 a44 b3 c7 d37 e64 f5 g14 h28 i45 j3 k2 l53 m17 n1 o131 p22 r49 s28 t8 u12 w1 x4 z1 
+fh a3 e5 i1 o2 p1 t3 u2 
+zt e3 h2 o4 r4 
+ss $151 a157 b22 c95 d122 e196 f25 g13 h89 i257 j9 k8 l115 m34 n13 o118 p83 q11 r22 s69 t83 u25 v12 w50 x9 y32 z1 
+zu $3 c1 f1 h1 i1 n1 r1 t4 
+vy $7 a1 d4 e1 j7 k3 m1 
+je $2 a2 b3 c134 d13 e2 j1 k8 l8 m8 n39 p1 r4 s2 t32 u6 x7 
+tg $6 a7 c6 d6 e46 f2 g2 i12 l42 m4 n10 o9 p13 r164 s19 t53 u44 
+sr $15 a24 b1 c30 d5 e51 f4 g2 i6 j3 l93 m5 o10 p11 q1 s16 t12 u34 v3 y1 
+ip $102 a64 b3 c40 d61 e197 f9 g5 h44 i16 j1 k2 l96 m42 n5 o22 p70 q4 r56 s123 t208 u28 v17 w12 x7 y33 z2 
+pk $6 c12 d5 e3 g50 h1 i11 j1 m1 o3 p1 t4 u2 
+ml $341 a23 b30 c55 d328 e38 f31 g18 h29 i58 j27 k1 l29 m54 n34 o31 p133 q2 r46 s75 t94 u18 v8 w34 x14 y4 z1 
+cb $8 a23 b1 c12 d17 e3 f4 g8 i65 k4 l23 m6 o50 p6 r33 s15 t3 u8 x27 y24 z3 
+wn $21 a2 c20 d11 e8 f1 g1 h2 i2 l16 m2 n16 o2 p11 r1 s1 t4 
+fi $31 a13 b4 c262 d10 e49 f6 g233 h1 i3 j2 k1 l457 m3 n120 o13 p1 r197 s53 t56 u7 v5 x60 z4 
+jb $2 a1 c2 d2 i9 l2 o5 p1 r2 s1 t1 u2 z1 
+zr $6 a1 b1 c3 d4 e2 j1 l4 p1 r1 s5 t5 u3 x1 
+mk $12 a1 c2 d10 e3 g2 i2 l5 m1 n3 p1 r4 s1 t4 v3 
+fn $2 e12 f2 g2 i2 l1 m2 o1 p1 s1 t2 
+iw $2 a3 c1 d1 e6 i13 l4 m4 o8 r2 s2 y2 
+su $9 a31 b89 c4 d15 e9 f7 g11 i39 k1 l3 m32 n48 o3 p98 r40 s23 t52 u2 
+lx $18 a8 c6 d17 g3 i5 l4 m23 p8 q1 r2 s10 t4 u1 
+wi $12 b1 c12 d79 f26 g28 i14 k74 l17 m11 n190 o1 p13 r28 s36 t92 x1 z13 
+bz $3 a7 b6 d5 e34 f4 h6 i37 l12 m8 n2 o15 r22 t2 v4 x1 y7 z2 
+pl $54 a410 c9 d38 e550 g3 h2 i127 j2 l8 m5 n2 o155 p63 r2 s7 t11 u1244 v5 w2 x2 y24 z2 
+ce $263 a24 b18 c71 d204 e17 f27 g30 h48 i29 j10 k3 l179 m45 n139 o71 p131 q9 r119 s235 t22 u18 v62 w121 x55 y3 z2 
+zs $1 a2 e2 h11 i3 n2 s1 t3 y1 z1 
+jc $13 a4 c1 d13 h2 i10 l2 m14 o16 r2 s2 
+wh $1 a6 e14 i22 l10 o19 p2 t2 u1 y5 
+mj $1 a50 j6 l1 m1 n2 o27 p7 s6 
+pm $36 a38 b1 c18 d25 e24 f1 g6 h2 i46 k1 l4 m3 n2 o26 p15 r1 s14 t7 u18 v3 w6 x1 y5 
+ly $30 a2 b11 c7 d18 e1 f5 g9 h2 j2 l4 m16 n18 o6 p33 r9 s80 t8 w2 x7 z11 
+iv $16 a66 b1 c5 d13 e493 i42 m2 o3 s3 t9 u2 x1 y9 
+fo $67 a8 b3 c12 d23 f1 g6 i2 j1 l39 m2 n518 o25 p26 r462 s11 t4 u18 v1 w1 x106 
+cd $45 a102 b118 c11 d38 e271 f19 g2 h12 i57 k5 l10 m1 n3 o99 p19 r13 s4 t16 u8 w1 x3 y7 
+ta $624 a32 b263 c176 d127 e19 f30 g141 h12 i69 j9 k14 l300 m42 n167 o35 p119 q4 r181 s377 t236 u40 v77 w9 x27 y6 z4 
+st $282 a643 b18 c82 d204 e588 f112 g143 h43 i142 j32 k9 l70 m76 n19 o277 p125 q2 r633 s111 t39 u60 v38 w22 x21 y69 z20 
+zp $1 a2 e5 j1 l1 o2 r2 
+wk $9 a1 d1 h1 i3 n6 s2 
+lz $9 a5 c5 d9 f1 h1 i17 l1 m10 o4 s1 t1 
+pn $7 a8 b3 c11 d3 e23 g48 i12 l2 m1 o14 p47 s5 u2 x1 
+bx $7 a26 b8 c105 d30 e25 f35 g18 i31 j5 k14 l2 m224 n7 o9 p21 q6 r16 s38 t14 u3 v15 w3 x10 y3 z2 
+tb $6 a43 b5 d4 e14 f1 g1 i28 l16 o40 p2 r26 s3 u23 v1 z1 
+mi $27 a26 b8 c106 d92 e2 f4 g37 i6 j1 k14 l38 m87 n373 o4 p17 r28 s92 t64 u9 v1 w2 x63 z12 
+sw $11 a48 c2 d25 e42 f7 h8 i102 m5 o42 q3 r7 s5 t18 w1 x5 y1 
+cg $1 a7 b2 c4 d10 e15 f2 g1 h12 i148 k3 l24 m6 n14 o10 p1 r24 s8 t13 u2 v2 
+fl $5 a114 b5 c5 d10 e62 i76 j1 k1 l3 m1 o73 p10 r8 s1 t16 u36 v3 w3 y5 
+iu $4 c1 d5 i8 j2 k1 m50 n6 p10 s38 t22 u1 
+zq u1 
+wj a10 g3 s1 
+cf $5 a14 b4 c3 d5 e9 f10 g13 i44 l4 n2 o10 p1 r12 s8 t7 u5 v1 x1 y1 
+mh $5 a31 b1 c5 d4 e8 f2 g1 i2 o4 p1 s3 t6 w1 y5 
+fm $20 a13 c2 d9 e5 f4 g5 i7 j1 l24 m5 o6 p19 s6 t18 u1 y1 
+by $104 a73 b29 c48 d48 e36 f36 g52 h34 i14 j18 k14 l20 m57 n26 o35 p42 q9 r78 s67 t86 u10 v8 w8 x5 y3 z6 
+ja $31 a1 b24 c66 d12 e5 f3 g6 h1 i9 j2 k3 l4 m19 n150 o1 p15 r28 s12 t8 u4 v1502 w2 x28 y3 z2 
+sv $22 a8 b1 c10 d11 e6 f3 g64 i37 j7 l2 m6 n52 o7 p5 r5 s9 t3 x2 
+it $292 a117 b17 c88 d144 e428 f5 g68 h100 i120 j15 k18 l44 m47 n6 o161 p70 q5 r30 s130 t57 u27 v9 w6 x95 y155 z19 
+po $8 a4 b1 c68 d66 e42 g6 h2 i34 j3 k9 l139 m27 n92 o30 p79 r232 s275 t12 u3 v3 w45 x3 z12 
+tc $11 a54 b4 c5 d33 e4 f5 g13 h307 i39 j2 k2 l159 m6 n1 o237 p44 r11 s10 t7 u21 v2 w1 x2 y2 z1 

@@ -1,12 +1,23 @@
 # ntih (Naming Things Is Hard)
 
 ## ntih
-> ntih [LENGTH] [NUMBER] < EXAMPLE TEXT > WORDS
-Output a NUMBER nonsense words up to the given LENGTH 
-from a Markov chain built from text on standard input.
 
-# License
-GPLv3 (see LICENSE)
+# Usage
+> ntih [OPTIONS] [LENGTH] [NUMBER] < EXAMPLE TEXT > WORDS
+Build a markov chain by sampling words from input text,
+then use it to generate COUNT words each composed of up to LENGTH characters.
+
+OPTIONS
+ -f CHAIN_FILE  : File where the chain will be stored.
+ -i INPUT_FILE  : Input file from which to read sample words.
+ -r             : Force regeneration of CHAIN_FILE.
+
+ENVIRONMENT
+ $NTIHFILE : Default CHAIN_FILE from which to load a chain.
+ $NTIHDICT : Default INPUT_FILE from which to generate a chain.
+
+ntih © Mike Lalumiere 2018
+Licensed under GPLv3 (see LICENSE)
 
 # Links
 GNU - https://www.gnu.org/software/
