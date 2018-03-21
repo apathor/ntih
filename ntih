@@ -1,10 +1,10 @@
 #!/bin/bash
 # ntih - naming things is hard
 # ntih © Mike Lalumiere 2018
-# ntih [LENGTH] [NUMBER] < EXAMPLE TEXT > WORDS
+# ntih [[MIN:]MAX] [COUNT] < EXAMPLE TEXT > WORDS
 # This file is licensed under the GPLv3. Please see LICENSE.
 
-# Here's a line encoding for a markov chain of characters in a word:
+# Here's a simple line encoding for a markov chain of characters in a word:
 #  <char previous><char current> <char next><integer weight> ...
 #
 # Entries looks like this:
@@ -22,24 +22,31 @@
 #
 # Function ntih_render reads a chain of this format then uses it to generate words.
 # Function ntih_build generates a chain in this format by reading text input.
+# Function ntih wraps the build and render functions in a nice interface.
 
-
-# ntih_render LENGTH [NUMBER] < CHAIN > WORD
+# ntih_render LENGTH [COUNT] < CHAIN > WORD
 # Read a chain and use it to generate some words up to target length.
 ntih_render() {
     # patterns
-    local p_word="^[[:alpha:]^$]+$"
-    local p_int="^[[:digit:]]+$"
+    local p_word="[[:alpha:]^$]+"
+    local p_int="[[:digit:]]+"
     # accept length argument - an integer maximum length for generated words
-    local length="${1:-10}"
-    if ! [[ "$length" =~ $p_int ]]; then
-        echo "Length argument must be a number." >&2
+    local length="${1:-1:10}"
+    if ! [[ "$length" =~ ^($p_int:)?$p_int$ ]]; then
+        echo "Length argument must be an integer or pair of integers MIN:MAX." >&2
+        return 1
+    fi
+    # length is a range or an absolute target
+    IFS=':' read min max <<< "$length"
+    if [ -z "$max" ]; then max="$min"; min=""; fi
+    if [ -n "$min" ] && [ "$min" -ge "$max" ]; then
+        echo "Minimum length must be less than maximum length." >&2
         return 1
     fi
     # accept number argument - an integer number of words to generate
     local number="${2:-1}"
-    if ! [[ "$number" =~ $p_int ]]; then
-        echo "Length argument must be a number." >&2
+    if ! [[ "$number" =~ ^$p_int$ ]]; then
+        echo "Number argument must be an integer." >&2
         return 1
     fi
     # parse chain string into rules array
@@ -96,15 +103,26 @@ ntih_render() {
         # setup initial state
         prev="${starts:$((RANDOM % ${#starts})):1}"
         rule="${rules[$prev]}"
-        # walk chain until length found
-        for ((i=0; i < "$length"; i++)); do
+        # walk chain until max length
+        for ((i=1; i <= "$max"; i++)); do
             out+="$prev"
             # get next character and lookup rule
             curr="${rule:$((RANDOM % ${#rule})):1}"
-            if [ "$curr" == '$' ]; then break; fi
-            # step forward
+            # get next rule
             rule="${rules[${prev}${curr}]}"
-            if [ -z "$rule" ]; then out+="$curr"; break; fi
+            # end of the word?
+            if [ "$curr" == '$' ] || [ -z "$rule" ]; then
+                if [ -n "$min" ] && [ "$i" -ge "$min" ] ; then
+                    # end if the minimum length reached
+                    break
+                else
+                    # start a new word
+                    prev="${starts:$((RANDOM % ${#starts})):1}"
+                    rule="${rules[${prev}]}"
+                    continue
+                fi
+            fi
+            # step forward
             prev="$curr"
         done
         # output generated string!
@@ -120,15 +138,15 @@ ntih_build() {
     # gather character pattern data
     declare -A rules
     local prev curr
-    # read words on stdin
+    # generate frequency strings for each rule from input
     while read line; do
-        # split lines into words
+        # each line into words
         while read -d ' ' word; do
-            # setup initial character state
+            # setup the initial character state for the rule
             prev="^"
             curr="${word:0:1}"
             if ! [[ "$curr" =~ $p_word ]]; then continue; fi
-            # read rest of word one character at a time
+            # read the rest of the word one character at a time
             while read -N1 char; do
                 if ! [[ "$char" =~ $p_word ]]; then continue; fi
                 rules["${prev}${curr}"]+="$char"
@@ -139,32 +157,38 @@ ntih_build() {
             rules["${prev}${curr}"]+='$'
         done < <(printf "%s " "${line,,}")
     done
-    # render rules
+    # render rule frequency strings into next char weights
     declare -A count
     for item in "${!rules[@]}"; do
-        # count characters in rule
+        # count characters in rule string to guage a weight
         count=()
         while read -N 1 char; do
             let count["$char"]++
         done < <(printf "%s" "${rules[$item]}")
-        # generate next step
+        # set each character weight some maximum
+        local max=10
+        for char in "${!count[@]}"; do
+            if [ "${count[$char]}" -gt "$max" ]; then count["$char"]="$max"; fi
+        done
+        # generate next character weight strings
         steps=()
         while read char; do
             steps+=("${char}${count[$char]}")
         done < <(printf "%s\n" "${!count[@]}" | sort)
-        # write the rule
+        # write this chain rule
         printf "%s %s\n" "$item" "$(printf "%s " "${steps[@]}")"
     done
 }
 
-# ntih [OPTIONS] [LENGTH] [NUMBER] < TEXT > WORDS
+# ntih [OPTIONS] [[MIN:]MAX] [COUNT] < TEXT > WORDS
 # Generate words from chain made from input text.
 ntih() {
     # usage
     read -r -d '' use <<EOF
-USAGE: ntih [OPTIONS] [LENGTH] [COUNT]
-Build a markov chain by sampling words from input text,
-then use it to generate COUNT words each composed of up to LENGTH characters.
+USAGE: ntih [OPTIONS] [[MIN:]MAX] [COUNT]
+
+Generate COUNT words each composed of between MIN and MAX characters.
+Given MAX and not MIN generate words of exactly that length.
 
 OPTIONS
  -f CHAIN_FILE  : File where the chain will be stored.
@@ -205,7 +229,7 @@ EOF
               printf "Input needed to build chain!\n" >&2
               return 2
           fi
-        } | ntih_build | sort > "$conf"
+        } | ntih_build | sort > "$conf";
     fi
     # generate some strings
     ntih_render "$@" < "$conf"

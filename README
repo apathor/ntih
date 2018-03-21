@@ -1,11 +1,12 @@
 # ntih (Naming Things Is Hard)
 
-## ntih
-
 # Usage
-> ntih [OPTIONS] [LENGTH] [NUMBER] < EXAMPLE TEXT > WORDS
-Build a markov chain by sampling words from input text,
-then use it to generate COUNT words each composed of up to LENGTH characters.
+
+> ntih [OPTIONS] [[MIN:]MAX] [COUNT] < EXAMPLE TEXT > WORDS
+
+Build a Markov chain of character pairs by sampling words from input text.
+Using that chain, generate COUNT words with length between MIN and MAX characters.
+Given MAX and not MIN generate words of exactly that length.
 
 OPTIONS
  -f CHAIN_FILE  : File where the chain will be stored.
@@ -16,8 +17,26 @@ ENVIRONMENT
  $NTIHFILE : Default CHAIN_FILE from which to load a chain.
  $NTIHDICT : Default INPUT_FILE from which to generate a chain.
 
-ntih © Mike Lalumiere 2018
-Licensed under GPLv3 (see LICENSE)
+# What
+Here's a simple line encoding for a markov chain of characters in a word:
+ <char previous><char current> <char next><integer weight> ...
+
+Entries looks like this:
+ ^l a38 e24 i23 l1 o18 u9 y2
+ an $49 a11 c27 d48 e12 f1 g22 i19 k7 l1 n9 o4 q1 s54 t53 u3 w1 x1
+ nd $12 a13 b5 e42 f1 h2 i21 l12 m2 o7 p1 r5 s17 t1 u4
+ fr $1 a10 e15 i2 o9 u2 y1
+ db a3 i1 l1 u2
+
+Each rule gives possible next characters given the previous two characters.
+There are two special characters '^' and '$' denoting start and end points.
+
+To build a word a starting character is selected randomly, then for each
+step a next character is selected randomly weighted by the rules.
+
+Function ntih_render reads a chain of this format then uses it to generate words.
+Function ntih_build generates a chain in this format by reading text input.
+Function ntih wraps the build and render functions in a nice interface.
 
 # Links
 GNU - https://www.gnu.org/software/
