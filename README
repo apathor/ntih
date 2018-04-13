@@ -17,6 +17,19 @@ ENVIRONMENT
  $NTIHFILE : Default CHAIN_FILE from which to load a chain.
  $NTIHDICT : Default INPUT_FILE from which to generate a chain.
 
+# Example
+ $> ntih 1:6 100 | sort | column -c 80
+ aemeez  bsiono  dumung  gshopa  isluab  lhedhe  natych  rxisty  unkyup  wyl
+ aigibr  ceubla  eapjs   hé      jamé    logood  on      scorva  unshev  xem
+ ångfuc  cimius  écigae  hodt    jaryde  lsserk  peogta  shdovo  urdogb  ythhip
+ ångmyr  climoc  ectmak  hoke    jibruc  lyevac  pique   sveral  utlixs  yve
+ ångtif  craesi  emliel  htnava  jociz   mb      plyplu  tcafon  vim     zacqué
+ ångtod  dabune  émochp  hyanys  jutezb  mirhog  punqué  tlosua  vlopyr  zerplo
+ atulkw  ddysmi  fdregy  hysfud  khmikh  mnseyb  qadley  trsvex  vutshn  zhizoi
+ awma    débuzs  ferbre  ibbuys  knodki  msscsl  qommoh  twipus  vuttge  ziccav
+ azurlu  dhuthp  filwon  icucli  kru     nafinb  r       twogga  whorwa  zircoo
+ blia    dudotp  fucuff  irrhot  lathit  nagluk  rwopré  ulyrud  wonien  zs
+
 # What
 Here's a simple line encoding for a markov chain of characters in a word:
  <char previous><char current> <char next><integer weight> ...
