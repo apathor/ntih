@@ -3,8 +3,8 @@
 # ntih © Mike Lalumiere 2018
 # ntih [[MIN:]MAX] [COUNT] < EXAMPLE TEXT > WORDS
 # This file is licensed under the GPLv3. Please see LICENSE.
-
-# Here's a simple line encoding for a markov chain of characters in a word:
+#
+# Here's a line encoding for a markov chain of characters in a word:
 #  <char previous><char current> <char next><integer weight> ...
 #
 # Entries looks like this:
@@ -20,33 +20,33 @@
 # To build a word a starting character is selected randomly, then for each
 # step a next character is selected randomly weighted by the rules.
 #
-# Function ntih_render reads a chain of this format then uses it to generate words.
+# Function ntih_render reads a chain of this format then uses it to assemble words.
 # Function ntih_build generates a chain in this format by reading text input.
-# Function ntih wraps the build and render functions in a nice interface.
+# Function ntih provides a friendly interface around the other functions.
 
-# ntih_render LENGTH [COUNT] < CHAIN > WORD
-# Read a chain and use it to generate some words up to target length.
+# ntih_render [[MIN:]MAX] [COUNT] < CHAIN > WORD
+# Read a chain and use it to generate COUNT words composed of between MIN and MAX characters.
 ntih_render() {
     # patterns
     local p_word="[[:alpha:]^$]+"
     local p_int="[[:digit:]]+"
-    # accept length argument - an integer maximum length for generated words
+    # accept length argument
     local length="${1:-1:10}"
     if ! [[ "$length" =~ ^($p_int:)?$p_int$ ]]; then
-        echo "Length argument must be an integer or pair of integers MIN:MAX." >&2
+        printf "%s\n" "Length argument must be an integer or pair of integers MIN:MAX." >&2
         return 1
     fi
     # length is a range or an absolute target
     IFS=':' read min max <<< "$length"
     if [ -z "$max" ]; then max="$min"; min=""; fi
     if [ -n "$min" ] && [ "$min" -ge "$max" ]; then
-        echo "Minimum length must be less than maximum length." >&2
+        printf "%s\n" "Minimum length must be less than maximum length." >&2
         return 1
     fi
     # accept number argument - an integer number of words to generate
     local number="${2:-1}"
     if ! [[ "$number" =~ ^$p_int$ ]]; then
-        echo "Number argument must be an integer." >&2
+        printf "%s\n" "Number argument must be an integer." >&2
         return 1
     fi
     # parse chain string into rules array
@@ -57,14 +57,14 @@ ntih_render() {
         prev="${entry:0:1}"
         if [ -z "$prev" ]; then break; fi
         if ! [[ "$prev" =~ $p_word ]]; then
-            echo "BAD PREV IN '$entry' - $prev" >&2
+            printf "%s\n" "BAD PREV IN '$entry' - $prev" >&2
             return 2
         fi
         # read entry current char
         curr="${entry:1:1}";
         if [ -z "$curr" ]; then break; fi
         if ! [[ "$curr" =~ $p_word ]]; then
-            echo "BAD CURR '$entry' - $curr" >&2
+            printf "%s\n" "BAD CURR '$entry' - $curr" >&2
             return 2
         fi
         # read entry rule string
@@ -75,13 +75,13 @@ ntih_render() {
             char="${step:0:1}"
             if [ -z "$char" ] || [ "$char" == "#" ]; then break; fi
             if ! [[ "$char" =~ $p_word ]]; then
-                echo "BAD NEXT '$entry' - $index $char" >&2
+                printf "%s\n" "BAD NEXT '$entry' - $index $char" >&2
                 return 2
             fi
             # the rest is integer weight
             weight="${step:1}"
             if ! [[ "$weight" =~ $p_int ]]; then
-                echo "BAD WEIGHT $index $weight" >&2
+                printf "%s\n" "BAD WEIGHT $index $weight" >&2
                 return 2
             fi
             # unpack the step into a character sequence by weight
@@ -94,47 +94,63 @@ ntih_render() {
     done
     # ensure rules exist
     if [ "${#rules[@]}" == 0 ]; then
-        echo "No rules found!" >&2
+        printf "%s\n" "No rules found!" >&2
         exit 3
     fi
-    # generate one or more string
-    for ((n=0; n < "$number"; n++)); do
+    # generate some strings from given rules
+    declare -A words
+    while (( "${#words[@]}" < "$number" )); do
+        # for ((n=0; n < "$number"; n++)); do
         local out=""
         # setup initial state
         prev="${starts:$((RANDOM % ${#starts})):1}"
         rule="${rules[$prev]}"
         # walk chain until max length
-        for ((i=1; i <= "$max"; i++)); do
+        for ((len=1; len <= "$max"; len++)); do
             out+="$prev"
-            # get next character and lookup rule
+            # maybe end if minimum length reached
+            if [ -n "$min" ] &&
+                   [ "$len" -ge "$min" ] &&
+                   [ "$(( RANDOM % (1 + max - len) ))" == "1" ]; then
+                break
+            fi
+            # get next character and rule
             curr="${rule:$((RANDOM % ${#rule})):1}"
-            # get next rule
             rule="${rules[${prev}${curr}]}"
-            # end of the word?
+            # terminal symbol? rule
             if [ "$curr" == '$' ] || [ -z "$rule" ]; then
-                if [ -n "$min" ] && [ "$i" -ge "$min" ] ; then
-                    # end if the minimum length reached
-                    break
-                else
-                    # start a new word
-                    prev="${starts:$((RANDOM % ${#starts})):1}"
-                    rule="${rules[${prev}]}"
-                    continue
-                fi
+                # start a new word
+                prev="${starts:$((RANDOM % ${#starts})):1}"
+                rule="${rules[${prev}]}"
+                continue
             fi
             # step forward
             prev="$curr"
         done
-        # output generated string!
-        echo "$out"
+        # add unique words
+        let words["$out"]++
     done
+    # write out words
+    while read word; do
+        printf "%s\n" "$word";
+    done < <(printf "%s\n" "${!words[@]}" | sort)
+
 }
 
-# ntih_build < WORDS > CHAIN
+# ntih_build [WEIGHT] < WORDS > CHAIN
 # Build a chain from input text.
+# Given integer argument WEIGHT limit rule weight to that value.
 ntih_build() {
     # patterns
-    local p_word="^[[:alpha:]]+$"
+    local p_word="^[[:alpha:]^$]+"
+    local p_int="[[:digit:]]+"
+    local p_char="[[:alpha:]]"
+    # arguments
+    local max="${1:-10}"
+    if ! [[ "$max" =~ ^($p_int:)?$p_int$ ]]; then
+        printf "%s\n" "Maximum rule weight must be an integer." >&2
+        return 1
+    fi
     # gather character pattern data
     declare -A rules
     local prev curr
@@ -144,12 +160,13 @@ ntih_build() {
         while read -d ' ' word; do
             # setup the initial character state for the rule
             prev="^"
-            curr="${word:0:1}"
-            if ! [[ "$curr" =~ $p_word ]]; then continue; fi
+            curr="^"
             # read the rest of the word one character at a time
             while read -N1 char; do
-                if ! [[ "$char" =~ $p_word ]]; then continue; fi
+                if ! [[ "$char" =~ ^$p_char$ ]]; then continue; fi
+                # record this character as appearing after the previous two
                 rules["${prev}${curr}"]+="$char"
+                # step forward
                 prev="$curr"
                 curr="$char"
             done < <(printf "%s" "${word:1}")
@@ -157,16 +174,16 @@ ntih_build() {
             rules["${prev}${curr}"]+='$'
         done < <(printf "%s " "${line,,}")
     done
-    # render rule frequency strings into next char weights
+    # render sequence frequency strings into markov chain strings
     declare -A count
+    declare -a steps
     for item in "${!rules[@]}"; do
         # count characters in rule string to guage a weight
         count=()
         while read -N 1 char; do
             let count["$char"]++
         done < <(printf "%s" "${rules[$item]}")
-        # set each character weight some maximum
-        local max=10
+        # limit each character weight to the maximum
         for char in "${!count[@]}"; do
             if [ "${count[$char]}" -gt "$max" ]; then count["$char"]="$max"; fi
         done
@@ -194,10 +211,11 @@ OPTIONS
  -f CHAIN_FILE  : File where the chain will be stored.
  -i INPUT_FILE  : Input file from which to read sample words.
  -r             : Force regeneration of CHAIN_FILE.
+ -w MAX_WEIGHT  : Maximum rule weight during chain generation.
 
 ENVIRONMENT
- \$NTIHFILE : Default CHAIN_FILE from which to load a chain.
- \$NTIHDICT : Default INPUT_FILE from which to generate a chain.
+ NTIHFILE : Sets CHAIN_FILE. The default is '$HOME/.ntih'.
+ NTIHDICT : Sets INPUT_FILE. The default is '/usr/share/dict/words'.
 
 ntih © Mike Lalumiere 2018
 EOF
@@ -205,15 +223,17 @@ EOF
     local conf="${NTIHFILE:-$HOME/.ntih}"
     local dict="${NTIHDICT:-/usr/share/dict/words}"
     local regn=0
-    # get options
+    local maxw=10
+    # accept options
     local chain
     while getopts ":f:hi:r" opt; do
         case "$opt" in
-            f) conf="$OPTARG"                                 ;;
-            i) dict="$OPTARG"                                 ;;
-            r) regn=1                                         ;;
-            h) printf "%s\n" "$use" >&2; return 0             ;;
-            \?) printf "Bad option!\n%s" "$use" >&2; return 1 ;;
+            f) conf="$OPTARG"                                  ;;
+            i) dict="$OPTARG"                                  ;;
+            r) regn=1                                          ;;
+            w) maxw="$OPTARG"                                  ;;
+            h) printf "%s\n" "$use" >&2; return 0              ;;
+            *) printf "Bad option!\n%s\n" "$use" >&2; return 1 ;;
         esac
     done
     shift $((OPTIND - 1))
@@ -229,10 +249,11 @@ EOF
               printf "Input needed to build chain!\n" >&2
               return 2
           fi
-        } | ntih_build | sort > "$conf";
+        } | ntih_build "$maxw" | sort > "$conf";
     fi
     # generate some strings
     ntih_render "$@" < "$conf"
 }
+
 # run it unless sourced
 if [[ "${BASH_SOURCE[0]}" == "$0" ]]; then ntih "$@"; fi
