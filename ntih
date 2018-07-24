@@ -88,14 +88,20 @@ ntih_render() {
             for ((rep=0; rep < "$weight"; rep++)); do buf+="${char}"; done
         done
         # record any starting points
-        if [ "$prev" == "^" ]; then starts+="$curr"; fi
+        if [ "$prev" == "^" ] && [ "$curr" != "^" ]; then starts+="$curr"; fi
         # record entry
         rules["${prev#^}${curr}"]="$buf"
     done
     # ensure rules exist
     if [ "${#rules[@]}" == 0 ]; then
         printf "%s\n" "No rules found!" >&2
-        exit 3
+        return 3
+    fi
+    # get starting character state
+    local init="${rules[^]:-$starts}"
+    if [ -z "$init" ]; then
+        printf "Could not find initial state." >&2
+        return 3
     fi
     # generate some strings from given rules
     declare -A words
@@ -103,7 +109,7 @@ ntih_render() {
         # for ((n=0; n < "$number"; n++)); do
         local out=""
         # setup initial state
-        prev="${starts:$((RANDOM % ${#starts})):1}"
+        prev="${init:$((RANDOM % ${#init})):1}"
         rule="${rules[$prev]}"
         # walk chain until max length
         for ((len=1; len <= "$max"; len++)); do
@@ -117,10 +123,9 @@ ntih_render() {
             # get next character and rule
             curr="${rule:$((RANDOM % ${#rule})):1}"
             rule="${rules[${prev}${curr}]}"
-            # terminal symbol? rule
+            # terminal symbol? start a new word
             if [ "$curr" == '$' ] || [ -z "$rule" ]; then
-                # start a new word
-                prev="${starts:$((RANDOM % ${#starts})):1}"
+                prev="${init:$((RANDOM % ${#init})):1}"
                 rule="${rules[${prev}]}"
                 continue
             fi
@@ -134,7 +139,6 @@ ntih_render() {
     while read word; do
         printf "%s\n" "$word";
     done < <(printf "%s\n" "${!words[@]}" | sort)
-
 }
 
 # ntih_build [WEIGHT] < WORDS > CHAIN
@@ -170,7 +174,9 @@ ntih_build() {
                 prev="$curr"
                 curr="$char"
             done < <(printf "%s" "${word:1}")
-            # terminating character
+            # maybe this sequence had no useful characters
+            if [ "${prev}${curr}" == "^^" ]; then continue; fi
+            # record end of word
             rules["${prev}${curr}"]+='$'
         done < <(printf "%s " "${line,,}")
     done
@@ -226,7 +232,7 @@ EOF
     local maxw=10
     # accept options
     local chain
-    while getopts ":f:hi:r" opt; do
+    while getopts ":f:hi:rw:" opt; do
         case "$opt" in
             f) conf="$OPTARG"                                  ;;
             i) dict="$OPTARG"                                  ;;
@@ -243,10 +249,10 @@ EOF
               printf "Building chain from STDIN.\n" >&2
               cat /dev/stdin
           elif [ -f "$dict" ]; then
-              printf "Building chain from %q.\n" "$dict" >&2
+              printf "Building chain %s from %s.\n" "$conf" "$dict" >&2
               cat "$dict"
           else
-              printf "Input needed to build chain!\n" >&2
+              printf "Dictionary file %s does not exist.\n" "$dict" >&2
               return 2
           fi
         } | ntih_build "$maxw" | sort > "$conf";
