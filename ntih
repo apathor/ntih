@@ -232,6 +232,7 @@ EOF
     local maxw=10
     # accept options
     local chain
+    local opt OPTARG OPTIND
     while getopts ":f:hi:rw:" opt; do
         case "$opt" in
             f) conf="$OPTARG"                                  ;;
