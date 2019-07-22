@@ -28,7 +28,7 @@
 # Read a chain and use it to generate COUNT words composed of between MIN and MAX characters.
 ntih_render() {
     # patterns
-    local p_word="[[:alpha:]^$]+"
+    local p_rule="^[[:alpha:]^$]{2}( [[:alpha:]^$][[:digit:]]+)+$"
     local p_int="[[:digit:]]+"
     # accept length argument
     local length="${1:-1:10}"
@@ -37,7 +37,7 @@ ntih_render() {
         return 1
     fi
     # length is a range or an absolute target
-    IFS=':' read min max <<< "$length"
+    IFS=':' read -r min max <<< "$length"
     if [ -z "$max" ]; then max="$min"; min=""; fi
     if [ -n "$min" ] && [ "$min" -ge "$max" ]; then
         printf "%s\n" "Minimum length must be less than maximum length." >&2
@@ -50,40 +50,22 @@ ntih_render() {
         return 1
     fi
     # parse chain string into rules array
-    local prev curr starts
+    local prev="" curr="" starts=""
     declare -A rules
-    while read entry rest; do
-        # read entry prev char
+    while read -r line; do
+        # each line must be a rule
+        if ! [[ "$line" =~ $p_rule ]]; then continue; fi
+        # read rule and determine previous and current characters
+        read -r entry rest <<< "$line"
         prev="${entry:0:1}"
-        if [ -z "$prev" ]; then break; fi
-        if ! [[ "$prev" =~ $p_word ]]; then
-            printf "%s\n" "BAD PREV IN '$entry' - $prev" >&2
-            return 2
-        fi
-        # read entry current char
         curr="${entry:1:1}";
-        if [ -z "$curr" ]; then break; fi
-        if ! [[ "$curr" =~ $p_word ]]; then
-            printf "%s\n" "BAD CURR '$entry' - $curr" >&2
-            return 2
-        fi
         # read entry rule string
         local buf=""
-        read -a steps <<< "$rest"
+        read -r -a steps <<< "$rest"
         for step in "${steps[@]}"; do
-            # character is first
+            # next character is first and the rest is integer weight
             char="${step:0:1}"
-            if [ -z "$char" ] || [ "$char" == "#" ]; then break; fi
-            if ! [[ "$char" =~ $p_word ]]; then
-                printf "%s\n" "BAD NEXT '$entry' - $index $char" >&2
-                return 2
-            fi
-            # the rest is integer weight
             weight="${step:1}"
-            if ! [[ "$weight" =~ $p_int ]]; then
-                printf "%s\n" "BAD WEIGHT $index $weight" >&2
-                return 2
-            fi
             # unpack the step into a character sequence by weight
             for ((rep=0; rep < "$weight"; rep++)); do buf+="${char}"; done
         done
@@ -100,7 +82,7 @@ ntih_render() {
     # get starting character state
     local init="${rules[^]:-$starts}"
     if [ -z "$init" ]; then
-        printf "Could not find initial state." >&2
+        printf "Could not find initial state.\n" >&2
         return 3
     fi
     # generate some strings from given rules
@@ -136,7 +118,7 @@ ntih_render() {
         let words["$out"]++
     done
     # write out words
-    while read word; do
+    while read -r word; do
         printf "%s\n" "$word";
     done < <(printf "%s\n" "${!words[@]}" | sort)
 }
@@ -146,7 +128,6 @@ ntih_render() {
 # Given integer argument WEIGHT limit rule weight to that value.
 ntih_build() {
     # patterns
-    local p_word="^[[:alpha:]^$]+"
     local p_int="[[:digit:]]+"
     local p_char="[[:alpha:]]"
     # arguments
@@ -159,14 +140,14 @@ ntih_build() {
     declare -A rules
     local prev curr
     # generate frequency strings for each rule from input
-    while read line; do
+    while read -r line; do
         # each line into words
-        while read -d ' ' word; do
+        while read -r -d ' ' word; do
             # setup the initial character state for the rule
             prev="^"
             curr="^"
             # read the rest of the word one character at a time
-            while read -N1 char; do
+            while read -r -N1 char; do
                 if ! [[ "$char" =~ ^$p_char$ ]]; then continue; fi
                 # record this character as appearing after the previous two
                 rules["${prev}${curr}"]+="$char"
@@ -186,7 +167,7 @@ ntih_build() {
     for item in "${!rules[@]}"; do
         # count characters in rule string to guage a weight
         count=()
-        while read -N 1 char; do
+        while read -r -N 1 char; do
             let count["$char"]++
         done < <(printf "%s" "${rules[$item]}")
         # limit each character weight to the maximum
@@ -195,7 +176,7 @@ ntih_build() {
         done
         # generate next character weight strings
         steps=()
-        while read char; do
+        while read -r char; do
             steps+=("${char}${count[$char]}")
         done < <(printf "%s\n" "${!count[@]}" | sort)
         # write this chain rule
@@ -231,7 +212,6 @@ EOF
     local regn=0
     local maxw=10
     # accept options
-    local chain
     local opt OPTARG OPTIND
     while getopts ":f:hi:rw:" opt; do
         case "$opt" in
